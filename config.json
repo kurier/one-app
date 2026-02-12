@@ -1,0 +1,24 @@
+{
+    "bubbles_content": "https://hermes.telekurier.at/api/v1/cfs/collection/kurier-one-bubbles",
+    "bubbles_ads": "https://hermes.telekurier.at/api/v1/cfs/collection/kurier-one-bubbles-native",
+    "menu_content": "https://efs-varnish.kurier.at/api/v1/cfs/menu/kurierat-kurier-one-home-picker",
+    "allowed_domains": ["kurier.at", "futurezone.at"],
+    "topics": [
+        {
+            "label": "Politik",
+            "link": "/politik",
+            "children": [
+                { "label": "Innenpolitik", "link": "/politik/inland" },
+                { "label": "Außenpolitik", "link": "/politik/ausland" }
+            ]
+        },
+        {
+            "label": "Wirtschaft",
+            "link": "/wirtschaft",
+            "children": [
+                { "label": "Finanzen", "link": "/wirtschaft/finanzen" },
+                { "label": "Immobilien", "link": "/wirtschaft/immobilien" }
+            ]
+        }
+    ]
+}
