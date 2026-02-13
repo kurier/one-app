@@ -3,22 +3,73 @@
     "bubbles_ads": "https://hermes.telekurier.at/api/v1/cfs/collection/kurier-one-bubbles-native",
     "menu_content": "https://efs-varnish.kurier.at/api/v1/cfs/menu/kurierat-kurier-one-home-picker",
     "allowed_domains": ["kurier.at", "futurezone.at"],
-    "topics": [
+    "topics": {
+        "title": "Themen und Ressorts",
+        "link": "/kurierat",
+        "children": [
+            { "title": "Außenpolitik", "link": "/kurierat/politik/ausland" },
+            { "title": "Innenpolitik", "link": "/kurierat/politik/inland" },
+            { "title": "Wirtschaft", "link": "/kurierat/wirtschaft" },
+            { "title": "Chronik", "link": "/kurierat/chronik" },
+            { "title": "Wien", "link": "/kurierat/chronik/wien" },
+            { "title": "Niederösterreich", "link": "/kurierat/chronik/niederoesterreich" },
+            { "title": "Burgenland", "link": "/kurierat/chronik/burgenland" },
+            { "title": "Oberösterreich", "link": "/kurierat/chronik/oberoesterreich" },
+            { "title": "Steiermark", "link": "/kurierat/chronik/steiermark" },
+            { "title": "Salzburg", "link": "/kurierat/chronik/salzburg" },
+            { "title": "Tirol", "link": "/kurierat/chronik/tirol" },
+            { "title": "Kärnten", "link": "/kurierat/chronik/kaernten" },
+            { "title": "Vorarlberg", "link": "/kurierat/chronik/vorarlberg" },
+            { "title": "Weltchronik", "link": "/kurierat/chronik/welt" },
+            { "title": "Sport", "link": "/kurierat/sport" },
+            { "title": "Formel 1", "link": "/kurierat/sport/formel-1" },
+            { "title": "Fußball", "link": "/kurierat/sport/fussball" },
+            { "title": "Stars", "link": "/kurierat/stars" },
+            { "title": "Wissen und Gesundheit", "link": "/kurierat/wissen" },
+            { "title": "Lifestyle", "link": "/kurierat/freizeit" },
+            { "title": "Reise", "link": "/kurierat/reise" },
+            { "title": "Kultur", "link": "/kurierat/kultur" },
+            { "title": "Kolumnen", "link": "/kurierat/kolumnen" },
+            { "title": "Meinung", "link": "/kurierat/meinung" },
+            { "title": "Podcasts", "link": "/kurierat/podcasts" }
+        ]
+    },
+    "regions": [
         {
-            "label": "Politik",
-            "link": "/politik",
+            "name": "Wien",
+            "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Chronik%20Wien%20Chronologisch",
             "children": [
-                { "label": "Innenpolitik", "link": "/politik/inland" },
-                { "label": "Außenpolitik", "link": "/politik/ausland" }
+                { "name": "Innerhalb des Gürtels", "description": "1–9 & 20. Bezirk", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Innerhalb%20des%20G%C3%BCrtels" },
+                { "name": "Außerhalb des Gürtels", "description": "10–19 & 23. Bezirk", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Au%C3%9Ferhalb%20des%20G%C3%BCrtels" },
+                { "name": "Donaubezirke", "description": "21 & 22. Bezirk", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Donaubezirke" }
             ]
         },
         {
-            "label": "Wirtschaft",
-            "link": "/wirtschaft",
+            "name": "Niederösterreich",
+            "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Nieder%C3%B6sterreich%20chrono%20dyn",
             "children": [
-                { "label": "Finanzen", "link": "/wirtschaft/finanzen" },
-                { "label": "Immobilien", "link": "/wirtschaft/immobilien" }
+                { "name": "Rund um Wien", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Rund%20um%20Wien%20chrono%20dyn" },
+                { "name": "Zentralregion", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Zentralregion%20chrono%20dyn" },
+                { "name": "Waldviertel", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Waldviertel%20chrono%20dyn" },
+                { "name": "Weinviertel", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Weinviertel%20chrono%20dyn" },
+                { "name": "Mostviertel", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Mostviertel%20chrono%20dyn" },
+                { "name": "Thermenregion", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Thermenregion%20chrono%20dyn" }
             ]
-        }
+        },
+        {
+            "name": "Burgenland",
+            "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/burgenland_dyn",
+            "children": [
+                { "name": "Nordburgenland", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Nordburgenland%20chrono%20dyn" },
+                { "name": "Eisenstadt", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Eisenstadt%20chrono%20dyn" },
+                { "name": "Südburgenland", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/S%C3%BCdburgenland%20chrono%20dyn" }
+            ]
+        },
+        { "name": "Oberösterreich", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Ober%C3%B6sterreich%20chrono%20dyn" },
+        { "name": "Salzburg", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Salzburg%20Chrono%20dyn" },
+        { "name": "Steiermark", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Steiermark%20chrono%20dyn" },
+        { "name": "Kärnten", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/K%C3%A4rnten%20chrono%20dyn" },
+        { "name": "Tirol", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Tirol%20chrono%20dyn" },
+        { "name": "Vorarlberg", "url": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Vorarlberg%20chrono%20dyn" }
     ]
 }
