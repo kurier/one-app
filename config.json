@@ -40,37 +40,37 @@
             "name": "Wien",
             "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Chronik%20Wien%20Chronologisch",
             "children": [
-                { "name": "Innerhalb des Gürtels", "description": "1–9 & 20. Bezirk", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Innerhalb%20des%20G%C3%BCrtels", "channel": "/kurierat/chronik/wien/im-guertel" },
-                { "name": "Außerhalb des Gürtels", "description": "10–19 & 23. Bezirk", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Au%C3%9Ferhalb%20des%20G%C3%BCrtels", "channel": "/kurierat/chronik/wien/ausserhalb-des-guertels" },
-                { "name": "Donaubezirke", "description": "21 & 22. Bezirk", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Donaubezirke", "channel": "/kurierat/chronik/wien/donaubezirke"}
+                { "name": "Innerhalb des Gürtels", "description": "1–9 & 20. Bezirk", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Innerhalb%20des%20G%C3%BCrtels", "channel": "https://kurier.at/chronik/wien/im-guertel" },
+                { "name": "Außerhalb des Gürtels", "description": "10–19 & 23. Bezirk", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Au%C3%9Ferhalb%20des%20G%C3%BCrtels", "channel": "https://kurier.at/chronik/wien/ausserhalb-des-guertels" },
+                { "name": "Donaubezirke", "description": "21 & 22. Bezirk", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Donaubezirke", "channel": "https://kurier.at/chronik/wien/donaubezirke"}
             ]
         },
         {
             "name": "Niederösterreich",
             "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Nieder%C3%B6sterreich%20chrono%20dyn",
             "children": [
-                { "name": "Rund um Wien", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Rund%20um%20Wien%20chrono%20dyn", "channel": "/kurierat/chronik/niederoesterreich/wien-umgebung" },
-                { "name": "Zentralregion", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Zentralregion%20chrono%20dyn", "channel": "/kurierat/chronik/niederoesterreich/zentralregion" },
-                { "name": "Waldviertel", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Waldviertel%20chrono%20dyn", "channel": "/kurierat/chronik/niederoesterreich/waldviertel" },
-                { "name": "Weinviertel", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Weinviertel%20chrono%20dyn", "channel": "/kurierat/chronik/niederoesterreich/weinviertel" },
-                { "name": "Mostviertel", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Mostviertel%20chrono%20dyn", "channel": "/kurierat/chronik/niederoesterreich/mostviertel" },
-                { "name": "Thermenregion", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Thermenregion%20chrono%20dyn", "channel": "/kurierat/chronik/niederoesterreich/thermenregion" }
+                { "name": "Rund um Wien", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Rund%20um%20Wien%20chrono%20dyn", "channel": "https://kurier.at/chronik/niederoesterreich/wien-umgebung" },
+                { "name": "Zentralregion", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Zentralregion%20chrono%20dyn", "channel": "https://kurier.at/chronik/niederoesterreich/zentralregion" },
+                { "name": "Waldviertel", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Waldviertel%20chrono%20dyn", "channel": "https://kurier.at/chronik/niederoesterreich/waldviertel" },
+                { "name": "Weinviertel", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Weinviertel%20chrono%20dyn", "channel": "https://kurier.at/chronik/niederoesterreich/weinviertel" },
+                { "name": "Mostviertel", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Mostviertel%20chrono%20dyn", "channel": "https://kurier.at/chronik/niederoesterreich/mostviertel" },
+                { "name": "Thermenregion", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Thermenregion%20chrono%20dyn", "channel": "https://kurier.at/chronik/niederoesterreich/thermenregion" }
             ]
         },
         {
             "name": "Burgenland",
             "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/burgenland_dyn",
             "children": [
-                { "name": "Nordburgenland", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Nordburgenland%20chrono%20dyn", "channel": "/kurierat/chronik/burgenland/norden" },
-                { "name": "Eisenstadt", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Eisenstadt%20chrono%20dyn", "channel": "/kurierat/chronik/burgenland/eisenstadt" },
-                { "name": "Südburgenland", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/S%C3%BCdburgenland%20chrono%20dyn", "channel": "/kurierat/chronik/burgenland/sueden" }
+                        { "name": "Nordburgenland", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Nordburgenland%20chrono%20dyn", "channel": "https://kurier.at/chronik/burgenland/norden" },
+                { "name": "Eisenstadt", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Eisenstadt%20chrono%20dyn", "channel": "https://kurier.at/chronik/burgenland/eisenstadt" },
+                { "name": "Südburgenland", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/S%C3%BCdburgenland%20chrono%20dyn", "channel": "https://kurier.at/chronik/burgenland/sueden" }
             ]
         },
-        { "name": "Oberösterreich", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Ober%C3%B6sterreich%20chrono%20dyn", "channel": "/kurierat/chronik/oberoesterreich" },
-        { "name": "Salzburg", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Salzburg%20Chrono%20dyn", "channel": "/kurierat/chronik/salzburg" },
-        { "name": "Steiermark", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Steiermark%20chrono%20dyn", "channel": "/kurierat/chronik/steiermark" },
-        { "name": "Kärnten", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/K%C3%A4rnten%20chrono%20dyn", "channel": "/kurierat/chronik/kaernten" },
-        { "name": "Tirol", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Tirol%20chrono%20dyn", "channel": "/kurierat/chronik/tirol" },
-        { "name": "Vorarlberg", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Vorarlberg%20chrono%20dyn", "channel": "/kurierat/chronik/vorarlberg" }
+        { "name": "Oberösterreich", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Ober%C3%B6sterreich%20chrono%20dyn", "channel": "https://kurier.at/chronik/oberoesterreich" },
+        { "name": "Salzburg", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Salzburg%20Chrono%20dyn", "channel": "https://kurier.at/chronik/salzburg" },
+        { "name": "Steiermark", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Steiermark%20chrono%20dyn", "channel": "https://kurier.at/chronik/steiermark" },
+        { "name": "Kärnten", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/K%C3%A4rnten%20chrono%20dyn", "channel": "https://kurier.at/chronik/kaernten" },
+        { "name": "Tirol", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Tirol%20chrono%20dyn", "channel": "https://kurier.at/chronik/tirol" },
+        { "name": "Vorarlberg", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Vorarlberg%20chrono%20dyn", "channel": "https://kurier.at/chronik/vorarlberg" }
     ]
 }
