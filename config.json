@@ -72,5 +72,23 @@
         { "name": "Kärnten", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/K%C3%A4rnten%20chrono%20dyn", "channel": "https://kurier.at/chronik/kaernten" },
         { "name": "Tirol", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Tirol%20chrono%20dyn", "channel": "https://kurier.at/chronik/tirol" },
         { "name": "Vorarlberg", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Vorarlberg%20chrono%20dyn", "channel": "https://kurier.at/chronik/vorarlberg" }
-    ]
+    ],
+
+    
+    "subscription_features": {
+        "basic": [
+            { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
+            { "benefit": "Tägliches ePaper mit allen Beilagen", "included": false },
+            { "benefit": "Wöchentliches Freizeit-Magazin", "included": false },
+            { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
+            { "benefit": "Rabatte in der Vorteilswelt", "included": true }
+        ],
+        "premium": [
+            { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
+            { "benefit": "Tägliches ePaper mit allen Beilagen", "included": true },
+            { "benefit": "Wöchentliches Freizeit-Magazin", "included": true },
+            { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
+            { "benefit": "Rabatte in der Vorteilswelt", "included": true }
+        ]
+    }
 }

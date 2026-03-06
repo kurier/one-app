@@ -1,67 +1,121 @@
 {
-    "products": [
+    "store-products": [
         {
             "app-store": {
                 "basic-monthly": {
                     "id": "at.kurier.one.subscription.basic.1m",
                     "verweisname": "Kurier One Basic (Monthly)",
                     "laufzeit": "1m",
-                    "preis": 11.90,
+                    "preis": 11.99,
                     "anzeigename": "KURIER Basic (Monatlich)",
                     "beschreibung": "KURIER im Basic-Abo, alle Artikel (exkl. ePaper)",
                     "aktionsangebot": {
                         "id": "at.kurier.one.subscription.basic.1m.promo",
                         "verweisname": "Kurier One Basic (Monthly) Promo",
                         "laufzeit": "1m",
-                        "preis": 0.90
+                        "preis": 0.99
                     }
                 },
                 "basic-yearly": {
                     "id": "at.kurier.one.subscription.basic.1y",
                     "verweisname": "Kurier One Basic (Yearly)",
                     "laufzeit": "1y",
-                    "preis": 139.00,
+                    "preis": 139.99,
                     "anzeigename": "KURIER Basic (Jährlich)",
                     "beschreibung": "KURIER im Basic-Abo, alle Artikel (exkl. ePaper)",
                     "aktionsangebot": {
                         "id": "at.kurier.one.subscription.basic.1y.promo",
                         "verweisname": "Kurier One Basic (Yearly) Promo",
                         "laufzeit": "1y",
-                        "preis": 70.00
-                    }
+                        "preis": 69.99
+                    }   
                 },
                 "premium-monthly": {
                     "id": "at.kurier.one.subscription.premium.1m",
                     "verweisname": "Kurier One Premium (Monthly)",
                     "laufzeit": "1m",
-                    "preis": 24.90,
+                    "preis": 24.99,
                     "anzeigename": "KURIER Premium (Monatlich)",
                     "beschreibung": "KURIER im Premium-Abo, alle Artikel (inkl. ePaper)",
                     "aktionsangebot": {
                         "id": "at.kurier.one.subscription.premium.1m.promo",
                         "verweisname": "Kurier One Premium (Monthly) Promo",
                         "laufzeit": "1m",
-                        "preis": 1.90
+                        "preis": 1.99
                     }
                 },
                 "premium-yearly": {
                     "id": "at.kurier.one.subscription.premium.1y",
                     "verweisname": "Kurier One Premium (Yearly)",
                     "laufzeit": "1y",
-                    "preis": 300.00,
+                    "preis": 299.99,
                     "anzeigename": "KURIER Premium (Jährlich)",
                     "beschreibung": "KURIER im Premium-Abo, alle Artikel (inkl. ePaper)",
                     "aktionsangebot": {
                         "id": "at.kurier.one.subscription.premium.1y.promo",
                         "verweisname": "Kurier One Premium (Yearly) Promo",
                         "laufzeit": "1y",
-                        "preis": 150.00
+                        "preis": 149.99
                     }
-                },
+                }
             },
             "play-store": {
-                "id": "1234567890",
-                "url": "https://play.google.com/store/apps/details?id=com.kurier.one"
+                "at.kurier.one.subscription.basic.1m": {
+                    "abo-id": "at-kurier-one-subscription-basic-1m",
+                    "verweisname": "Kurier One Basic (Monthly)",
+                    "laufzeit": "1m",
+                    "preis": 11.99,
+                    "anzeigename": "KURIER Basic (Monatlich)",
+                    "beschreibung": "KURIER im Basic-Abo, alle Artikel (exkl. ePaper)",
+                    "aktionsangebot": {
+                        "abo-id": "at-kurier-one-subscription-basic-1m-promo",
+                        "verweisname": "Kurier One Basic (Monthly) Promo",
+                        "laufzeit": "1m",
+                        "preis": 0.99
+                    }
+                },
+                "at.kurier.one.subscription.basic.1y": {
+                    "abo-id": "at-kurier-one-subscription-basic-1y",
+                    "verweisname": "Kurier One Basic (Yearly)",
+                    "laufzeit": "1y",
+                    "preis": 139.99,
+                    "anzeigename": "KURIER Basic (Jährlich)",
+                    "beschreibung": "KURIER im Basic-Abo, alle Artikel (exkl. ePaper)",
+                    "aktionsangebot": {
+                        "abo-id": "at-kurier-one-subscription-basic-1y-promo",
+                        "verweisname": "Kurier One Basic (Yearly) Promo",
+                        "laufzeit": "1y",
+                        "preis": 69.99
+                    }
+                },
+                "at.kurier.one.subscription.premium.1m": {
+                    "abo-id": "at-kurier-one-subscription-premium-1m",
+                    "verweisname": "Kurier One Premium (Monthly)",
+                    "laufzeit": "1m",
+                    "preis": 24.99,
+                    "anzeigename": "KURIER Premium (Monatlich)",
+                    "beschreibung": "KURIER im Premium-Abo, alle Artikel (inkl. ePaper)",
+                    "aktionsangebot": {
+                        "abo-id": "at-kurier-one-subscription-premium-1m-promo",
+                        "verweisname": "Kurier One Premium (Monthly) Promo",
+                        "laufzeit": "1m",
+                        "preis": 1.99
+                    }
+                },  
+                "at.kurier.one.subscription.premium.1y": {
+                    "abo-id": "at-kurier-one-subscription-premium-1y",
+                    "verweisname": "Kurier One Premium (Yearly)",
+                    "laufzeit": "1y",
+                    "preis": 299.99,
+                    "anzeigename": "KURIER Premium (Jährlich)",
+                    "beschreibung": "KURIER im Premium-Abo, alle Artikel (inkl. ePaper)",
+                    "aktionsangebot": {
+                        "abo-id": "at-kurier-one-subscription-premium-1y-promo",
+                        "verweisname": "Kurier One Premium (Yearly) Promo",
+                        "laufzeit": "1y",
+                        "preis": 149.99
+                    }
+                }
             }
         }
     ]
