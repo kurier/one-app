@@ -74,21 +74,81 @@
         { "name": "Vorarlberg", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Vorarlberg%20chrono%20dyn", "channel": "https://kurier.at/chronik/vorarlberg" }
     ],
 
-    
-    "subscription_features": {
-        "basic": [
-            { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
-            { "benefit": "Tägliches ePaper mit allen Beilagen", "included": false },
-            { "benefit": "Wöchentliches Freizeit-Magazin", "included": false },
-            { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
-            { "benefit": "Rabatte in der Vorteilswelt", "included": true }
-        ],
-        "premium": [
-            { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
-            { "benefit": "Tägliches ePaper mit allen Beilagen", "included": true },
-            { "benefit": "Wöchentliches Freizeit-Magazin", "included": true },
-            { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
-            { "benefit": "Rabatte in der Vorteilswelt", "included": true }
-        ]
-    }
+    "article-paywall": {
+        "heading": "Dieser Artikel ist in unseren Abos enthalten",
+        "monthly": {
+          "badge": false,
+          "badge_label": "",
+          "title": "Monatsabo",
+          "abo": [
+            {
+              "display_name": "Basic",
+              "apple_store_id": "at.kurier.one.subscription.basic.1m",
+              "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
+              "play_store_id": "at.kurier.one.subscription.basic.1m",
+              "strike_price": false,
+              "subscription_features": [
+                { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
+                { "benefit": "Tägliches ePaper mit allen Beilagen", "included": false },
+                { "benefit": "Wöchentliches Freizeit-Magazin", "included": false },
+                { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
+                { "benefit": "Rabatte in der Vorteilswelt", "included": true }
+              ],
+              "button_text": "4 Wochen für € 0,99 testen"
+            },
+            {
+              "display_name": "Premium",
+              "apple_store_id": "at.kurier.one.subscription.premium.1m",
+              "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
+              "play_store_id": "at.kurier.one.subscription.premium.1m",
+              "strike_price": false,
+              "subscription_features": [
+                { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
+                { "benefit": "Tägliches ePaper mit allen Beilagen", "included": true },
+                { "benefit": "Wöchentliches Freizeit-Magazin", "included": true },
+                { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
+                { "benefit": "Rabatte in der Vorteilswelt", "included": true }
+              ],
+              "button_text": "4 Wochen für € 1,99 testen"
+            }
+          ]
+        },
+        "yearly": {
+          "badge": true,
+          "badge_label": "-50%",
+          "title": "Jahresabo",
+          "abo": [
+            {
+              "display_name": "Basic",
+              "apple_store_id": "at.kurier.one.subscription.basic.1y",
+              "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
+              "play_store_id": "at.kurier.one.subscription.basic.1y",
+              "strike_price": true,
+              "subscription_features": [
+                { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
+                { "benefit": "Tägliches ePaper mit allen Beilagen", "included": false },
+                { "benefit": "Wöchentliches Freizeit-Magazin", "included": false },
+                { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
+                { "benefit": "Rabatte in der Vorteilswelt", "included": true }
+              ],
+              "button_text": "Jetzt abonnieren"
+            },
+            {
+              "display_name": "Premium",
+              "apple_store_id": "at.kurier.one.subscription.premium.1y",
+              "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
+              "play_store_id": "at.kurier.one.subscription.premium.1y",
+              "strike_price": true,
+              "subscription_features": [
+                { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
+                { "benefit": "Tägliches ePaper mit allen Beilagen", "included": true },
+                { "benefit": "Wöchentliches Freizeit-Magazin", "included": true },
+                { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
+                { "benefit": "Rabatte in der Vorteilswelt", "included": true }
+              ],
+              "button_text": "Jetzt abonnieren"
+            }
+          ]
+        }
+      }
 }
