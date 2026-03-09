@@ -67,7 +67,7 @@
             ]
         },
         { "name": "Oberösterreich", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Ober%C3%B6sterreich%20chrono%20dyn", "channel": "https://kurier.at/chronik/oberoesterreich" },
-        { "name": "Salzburg", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Salzburg%20Chrono%20dyn", "channel": "https://kurier.at/chronik/salzburg" },
+        { "name": "Salzburg", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Chronik%20Salzburg%20Channel%20chrono%20dyn", "channel": "https://kurier.at/chronik/salzburg" },
         { "name": "Steiermark", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Steiermark%20chrono%20dyn", "channel": "https://kurier.at/chronik/steiermark" },
         { "name": "Kärnten", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/K%C3%A4rnten%20chrono%20dyn", "channel": "https://kurier.at/chronik/kaernten" },
         { "name": "Tirol", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Tirol%20chrono%20dyn", "channel": "https://kurier.at/chronik/tirol" },
