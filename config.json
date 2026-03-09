@@ -74,7 +74,7 @@
         { "name": "Vorarlberg", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Vorarlberg%20chrono%20dyn", "channel": "https://kurier.at/chronik/vorarlberg" }
     ],
 
-    "article-paywall": {
+    "article_paywall": {
         "heading": "Dieser Artikel ist in unseren Abos enthalten",
         "monthly": {
           "badge": false,
