@@ -86,6 +86,8 @@
               "apple_store_id": "at.kurier.one.subscription.basic.1m",
               "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
               "play_store_id": "at.kurier.one.subscription.basic.1m",
+              "piano_term_id_apple": "TMUAL8Q8Y5F1",
+              "piano_term_id_play": "TMGUY23F70CE",
               "strike_price": false,
               "subscription_features": [
                 { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
@@ -101,6 +103,8 @@
               "apple_store_id": "at.kurier.one.subscription.premium.1m",
               "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
               "play_store_id": "at.kurier.one.subscription.premium.1m",
+              "piano_term_id_apple": "TMUZXJLPUWZ3",
+              "piano_term_id_play": "TMNZNZXXP1TF",
               "strike_price": false,
               "subscription_features": [
                 { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
@@ -123,6 +127,8 @@
               "apple_store_id": "at.kurier.one.subscription.basic.1y",
               "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
               "play_store_id": "at.kurier.one.subscription.basic.1y",
+              "piano_term_id_apple": "TMEKGMBX9IJ9",
+              "piano_term_id_play": "TMMT5SG990R0",
               "strike_price": true,
               "subscription_features": [
                 { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
@@ -138,6 +144,8 @@
               "apple_store_id": "at.kurier.one.subscription.premium.1y",
               "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
               "play_store_id": "at.kurier.one.subscription.premium.1y",
+              "piano_term_id_apple": "TMKPM28RG0C1",
+              "piano_term_id_play": "TM4V90905T9Q",
               "strike_price": true,
               "subscription_features": [
                 { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
