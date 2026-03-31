@@ -6,14 +6,14 @@
                     "id": "at.kurier.one.subscription.basic.1m",
                     "verweisname": "Kurier One Basic (Monthly)",
                     "laufzeit": "1m",
-                    "preis": 11.99,
+                    "preis": 11.90,
                     "anzeigename": "KURIER Basic (Monatlich)",
                     "beschreibung": "KURIER im Basic-Abo, alle Artikel (exkl. ePaper)",
                     "aktionsangebot": {
                         "id": "at.kurier.one.subscription.basic.1m.promo",
                         "verweisname": "Kurier One Basic (Monthly) Promo",
                         "laufzeit": "1m",
-                        "preis": 0.99
+                        "preis": 0.90
                     }
                 },
                 "basic-yearly": {
@@ -34,14 +34,14 @@
                     "id": "at.kurier.one.subscription.premium.1m",
                     "verweisname": "Kurier One Premium (Monthly)",
                     "laufzeit": "1m",
-                    "preis": 24.99,
+                    "preis": 24.90,
                     "anzeigename": "KURIER Premium (Monatlich)",
                     "beschreibung": "KURIER im Premium-Abo, alle Artikel (inkl. ePaper)",
                     "aktionsangebot": {
                         "id": "at.kurier.one.subscription.premium.1m.promo",
                         "verweisname": "Kurier One Premium (Monthly) Promo",
                         "laufzeit": "1m",
-                        "preis": 1.99
+                        "preis": 1.90
                     }
                 },
                 "premium-yearly": {
@@ -64,14 +64,14 @@
                     "abo-id": "at-kurier-one-subscription-basic-1m",
                     "verweisname": "Kurier One Basic (Monthly)",
                     "laufzeit": "1m",
-                    "preis": 11.99,
+                    "preis": 11.90,
                     "anzeigename": "KURIER Basic (Monatlich)",
                     "beschreibung": "KURIER im Basic-Abo, alle Artikel (exkl. ePaper)",
                     "aktionsangebot": {
                         "abo-id": "at-kurier-one-subscription-basic-1m-promo",
                         "verweisname": "Kurier One Basic (Monthly) Promo",
                         "laufzeit": "1m",
-                        "preis": 0.99
+                        "preis": 0.90
                     }
                 },
                 "at.kurier.one.subscription.basic.1y": {
@@ -92,14 +92,14 @@
                     "abo-id": "at-kurier-one-subscription-premium-1m",
                     "verweisname": "Kurier One Premium (Monthly)",
                     "laufzeit": "1m",
-                    "preis": 24.99,
+                    "preis": 24.90,
                     "anzeigename": "KURIER Premium (Monatlich)",
                     "beschreibung": "KURIER im Premium-Abo, alle Artikel (inkl. ePaper)",
                     "aktionsangebot": {
                         "abo-id": "at-kurier-one-subscription-premium-1m-promo",
                         "verweisname": "Kurier One Premium (Monthly) Promo",
                         "laufzeit": "1m",
-                        "preis": 1.99
+                        "preis": 1.90
                     }
                 },  
                 "at.kurier.one.subscription.premium.1y": {

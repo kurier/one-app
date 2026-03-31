@@ -96,7 +96,7 @@
                 { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
                 { "benefit": "Rabatte in der Vorteilswelt", "included": true }
               ],
-              "button_text": "4 Wochen für € 0,99 testen"
+              "button_text": "4 Wochen für € 0,90 testen"
             },
             {
               "display_name": "Premium",
@@ -112,7 +112,7 @@
                 { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
                 { "benefit": "Rabatte in der Vorteilswelt", "included": true }
               ],
-              "button_text": "4 Wochen für € 1,99 testen"
+              "button_text": "4 Wochen für € 1,90 testen"
             }
           ]
         },
