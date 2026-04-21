@@ -156,6 +156,24 @@
           ]
         }
       },
+    "epaper_regions": [
+        {
+            "title": "Wien",
+            "twipeId": "MPRKURwm"
+        },
+        {
+            "title": "Niederösterreich",
+            "twipeId": "MPRKURn"
+        },
+        {
+          "title": "Burgenland",
+          "twipeId": "MPRKURb"
+        },
+        {
+          "title": "Österreich",
+          "twipeId": "MPRKURl"
+        }
+    ],
     "epaper_paywall": {
         "piano_resource": "RSOZBCU",
         "product": {
