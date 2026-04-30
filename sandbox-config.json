@@ -182,5 +182,10 @@
             "apple_store_id": "at.kurier.one.einzelausgabe",
             "play_store_id": "at.kurier.one.einzelausgabe"
         }
-    }
+    },
+    "epaper_feed": {
+        "feed_url": "https://stage.twipe.telekurier.at/tokens/MPRKURwm/aggregate",
+        "number_of_kiosk_issues": 7,
+        "number_of_archive_issues": 30
+      }
 }
