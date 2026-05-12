@@ -3,37 +3,170 @@
     "bubbles_ads": "https://hermes.telekurier.at/api/v1/cfs/collection/kurierat_special_collection_specialbox_left",
     "bubble_max_count": 7,
     "menu_content": "https://efs-varnish.kurier.at/api/v1/cfs/menu/kurierat-kurier-one-home-picker",
-    "allowed_domains": ["kurier.at", "futurezone.at"],
+    "allowed_domains": [
+        "kurier.at",
+        "futurezone.at"
+    ],
     "topics": {
         "title": "Themen und Ressorts",
         "link": "/kurierat",
         "children": [
-            { "title": "Politik", "link": "/kurierat/politik" },
-            { "title": "Außenpolitik", "link": "/kurierat/politik/ausland" },
-            { "title": "Innenpolitik", "link": "/kurierat/politik/inland" },
-            { "title": "Wirtschaft", "link": "/kurierat/wirtschaft" },
-            { "title": "Chronik", "link": "/kurierat/chronik" },
-            { "title": "Wien", "link": "/kurierat/chronik/wien" },
-            { "title": "Niederösterreich", "link": "/kurierat/chronik/niederoesterreich" },
-            { "title": "Burgenland", "link": "/kurierat/chronik/burgenland" },
-            { "title": "Oberösterreich", "link": "/kurierat/chronik/oberoesterreich" },
-            { "title": "Steiermark", "link": "/kurierat/chronik/steiermark" },
-            { "title": "Salzburg", "link": "/kurierat/chronik/salzburg" },
-            { "title": "Tirol", "link": "/kurierat/chronik/tirol" },
-            { "title": "Kärnten", "link": "/kurierat/chronik/kaernten" },
-            { "title": "Vorarlberg", "link": "/kurierat/chronik/vorarlberg" },
-            { "title": "Weltchronik", "link": "/kurierat/chronik/welt" },
-            { "title": "Sport", "link": "/kurierat/sport" },
-            { "title": "Fußball", "link": "/kurierat/sport/fussball" },
-            { "title": "Motorsport", "link": "/kurierat/sport/motorsport" },
-            { "title": "Stars", "link": "/kurierat/stars" },
-            { "title": "Gesundheit", "link": "/kurierat/gesund" },
-            { "title": "Lifestyle", "link": "/kurierat/freizeit" },
-            { "title": "Reise", "link": "/kurierat/freizeit/reise" },
-            { "title": "Kultur", "link": "/kurierat/kultur" },
-            { "title": "Kolumnen", "link": "/kurierat/kolumnen" },
-            { "title": "Meinung", "link": "/kurierat/meinung" },
-            { "title": "Podcasts", "link": "/kurierat/podcasts" }
+            {
+                "title": "Politik",
+                "link": "/kurierat/politik",
+                "icon": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-politik.svg",
+                "onboarding": true
+            },
+            {
+                "title": "Außenpolitik",
+                "link": "/kurierat/politik/ausland",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Innenpolitik",
+                "link": "/kurierat/politik/inland",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Wirtschaft",
+                "link": "/kurierat/wirtschaft",
+                "icon": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-wirtschaft.svg",
+                "onboarding": true
+            },
+            {
+                "title": "Chronik",
+                "link": "/kurierat/chronik",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Wien",
+                "link": "/kurierat/chronik/wien",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Niederösterreich",
+                "link": "/kurierat/chronik/niederoesterreich",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Burgenland",
+                "link": "/kurierat/chronik/burgenland",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Oberösterreich",
+                "link": "/kurierat/chronik/oberoesterreich",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Steiermark",
+                "link": "/kurierat/chronik/steiermark",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Salzburg",
+                "link": "/kurierat/chronik/salzburg",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Tirol",
+                "link": "/kurierat/chronik/tirol",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Kärnten",
+                "link": "/kurierat/chronik/kaernten",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Vorarlberg",
+                "link": "/kurierat/chronik/vorarlberg",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Weltchronik",
+                "link": "/kurierat/chronik/welt",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Sport",
+                "link": "/kurierat/sport",
+                "icon": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-fussball.svg",
+                "onboarding": true
+            },
+            {
+                "title": "Fußball",
+                "link": "/kurierat/sport/fussball",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Motorsport",
+                "link": "/kurierat/sport/motorsport",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Gesundheit",
+                "link": "/kurierat/gesund",
+                "icon": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-gesundheit.svg",
+                "onboarding": true
+            },
+            {
+                "title": "Kultur",
+                "link": "/kurierat/kultur",
+                "icon": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-kultur.svg",
+                "onboarding": true
+            },
+            {
+                "title": "Stars",
+                "link": "/kurierat/stars",
+                "icon": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-stars.svg",
+                "onboarding": true
+            },
+            {
+                "title": "Lifestyle",
+                "link": "/kurierat/freizeit",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Reise",
+                "link": "/kurierat/freizeit/reise",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Kolumnen",
+                "link": "/kurierat/kolumnen",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Meinung",
+                "link": "/kurierat/meinung",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Podcasts",
+                "link": "/kurierat/podcasts",
+                "icon": "",
+                "onboarding": false
+            }
         ]
     },
     "regions": [
@@ -41,138 +174,276 @@
             "name": "Wien",
             "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Chronik%20Wien%20Chronologisch",
             "children": [
-                { "name": "Innerhalb des Gürtels", "description": "1–9 & 20. Bezirk", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Innerhalb%20des%20G%C3%BCrtels", "channel": "https://kurier.at/chronik/wien/im-guertel" },
-                { "name": "Außerhalb des Gürtels", "description": "10–19 & 23. Bezirk", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Au%C3%9Ferhalb%20des%20G%C3%BCrtels", "channel": "https://kurier.at/chronik/wien/ausserhalb-des-guertels" },
-                { "name": "Donaubezirke", "description": "21 & 22. Bezirk", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Donaubezirke", "channel": "https://kurier.at/chronik/wien/donaubezirke"}
+                {
+                    "name": "Innerhalb des Gürtels",
+                    "description": "1–9 & 20. Bezirk",
+                    "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Innerhalb%20des%20G%C3%BCrtels",
+                    "channel": "https://kurier.at/chronik/wien/im-guertel"
+                },
+                {
+                    "name": "Außerhalb des Gürtels",
+                    "description": "10–19 & 23. Bezirk",
+                    "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Au%C3%9Ferhalb%20des%20G%C3%BCrtels",
+                    "channel": "https://kurier.at/chronik/wien/ausserhalb-des-guertels"
+                },
+                {
+                    "name": "Donaubezirke",
+                    "description": "21 & 22. Bezirk",
+                    "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wien%20Donaubezirke",
+                    "channel": "https://kurier.at/chronik/wien/donaubezirke"
+                }
             ]
         },
         {
             "name": "Niederösterreich",
             "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Nieder%C3%B6sterreich%20chrono%20dyn",
             "children": [
-                { "name": "Rund um Wien", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Rund%20um%20Wien%20chrono%20dyn", "channel": "https://kurier.at/chronik/niederoesterreich/wien-umgebung" },
-                { "name": "Zentralregion", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Zentralregion%20chrono%20dyn", "channel": "https://kurier.at/chronik/niederoesterreich/zentralregion" },
-                { "name": "Waldviertel", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Waldviertel%20chrono%20dyn", "channel": "https://kurier.at/chronik/niederoesterreich/waldviertel" },
-                { "name": "Weinviertel", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Weinviertel%20chrono%20dyn", "channel": "https://kurier.at/chronik/niederoesterreich/weinviertel" },
-                { "name": "Mostviertel", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Mostviertel%20chrono%20dyn", "channel": "https://kurier.at/chronik/niederoesterreich/mostviertel" },
-                { "name": "Thermenregion", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Thermenregion%20chrono%20dyn", "channel": "https://kurier.at/chronik/niederoesterreich/thermenregion" }
+                {
+                    "name": "Rund um Wien",
+                    "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Rund%20um%20Wien%20chrono%20dyn",
+                    "channel": "https://kurier.at/chronik/niederoesterreich/wien-umgebung"
+                },
+                {
+                    "name": "Zentralregion",
+                    "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Zentralregion%20chrono%20dyn",
+                    "channel": "https://kurier.at/chronik/niederoesterreich/zentralregion"
+                },
+                {
+                    "name": "Waldviertel",
+                    "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Waldviertel%20chrono%20dyn",
+                    "channel": "https://kurier.at/chronik/niederoesterreich/waldviertel"
+                },
+                {
+                    "name": "Weinviertel",
+                    "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Weinviertel%20chrono%20dyn",
+                    "channel": "https://kurier.at/chronik/niederoesterreich/weinviertel"
+                },
+                {
+                    "name": "Mostviertel",
+                    "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Mostviertel%20chrono%20dyn",
+                    "channel": "https://kurier.at/chronik/niederoesterreich/mostviertel"
+                },
+                {
+                    "name": "Thermenregion",
+                    "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/N%C3%96%20Thermenregion%20chrono%20dyn",
+                    "channel": "https://kurier.at/chronik/niederoesterreich/thermenregion"
+                }
             ]
         },
         {
             "name": "Burgenland",
             "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/burgenland_dyn",
             "children": [
-                        { "name": "Nordburgenland", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Nordburgenland%20chrono%20dyn", "channel": "https://kurier.at/chronik/burgenland/norden" },
-                { "name": "Eisenstadt", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Eisenstadt%20chrono%20dyn", "channel": "https://kurier.at/chronik/burgenland/eisenstadt" },
-                { "name": "Südburgenland", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/S%C3%BCdburgenland%20chrono%20dyn", "channel": "https://kurier.at/chronik/burgenland/sueden" }
+                {
+                    "name": "Nordburgenland",
+                    "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Nordburgenland%20chrono%20dyn",
+                    "channel": "https://kurier.at/chronik/burgenland/norden"
+                },
+                {
+                    "name": "Eisenstadt",
+                    "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Eisenstadt%20chrono%20dyn",
+                    "channel": "https://kurier.at/chronik/burgenland/eisenstadt"
+                },
+                {
+                    "name": "Südburgenland",
+                    "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/S%C3%BCdburgenland%20chrono%20dyn",
+                    "channel": "https://kurier.at/chronik/burgenland/sueden"
+                }
             ]
         },
-        { "name": "Oberösterreich", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Ober%C3%B6sterreich%20chrono%20dyn", "channel": "https://kurier.at/chronik/oberoesterreich" },
-        { "name": "Salzburg", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Chronik%20Salzburg%20Channel%20chrono%20dyn", "channel": "https://kurier.at/chronik/salzburg" },
-        { "name": "Steiermark", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Steiermark%20chrono%20dyn", "channel": "https://kurier.at/chronik/steiermark" },
-        { "name": "Kärnten", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/K%C3%A4rnten%20chrono%20dyn", "channel": "https://kurier.at/chronik/kaernten" },
-        { "name": "Tirol", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Tirol%20chrono%20dyn", "channel": "https://kurier.at/chronik/tirol" },
-        { "name": "Vorarlberg", "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Vorarlberg%20chrono%20dyn", "channel": "https://kurier.at/chronik/vorarlberg" }
+        {
+            "name": "Oberösterreich",
+            "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Ober%C3%B6sterreich%20chrono%20dyn",
+            "channel": "https://kurier.at/chronik/oberoesterreich"
+        },
+        {
+            "name": "Salzburg",
+            "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Chronik%20Salzburg%20Channel%20chrono%20dyn",
+            "channel": "https://kurier.at/chronik/salzburg"
+        },
+        {
+            "name": "Steiermark",
+            "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Steiermark%20chrono%20dyn",
+            "channel": "https://kurier.at/chronik/steiermark"
+        },
+        {
+            "name": "Kärnten",
+            "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/K%C3%A4rnten%20chrono%20dyn",
+            "channel": "https://kurier.at/chronik/kaernten"
+        },
+        {
+            "name": "Tirol",
+            "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Tirol%20chrono%20dyn",
+            "channel": "https://kurier.at/chronik/tirol"
+        },
+        {
+            "name": "Vorarlberg",
+            "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Vorarlberg%20chrono%20dyn",
+            "channel": "https://kurier.at/chronik/vorarlberg"
+        }
     ],
-
     "article_paywall": {
         "piano_resource": "RVBLMMZ",
         "heading": "Dieser Artikel ist in unseren Abos enthalten",
         "monthly": {
-          "badge": false,
-          "badge_label": "",
-          "title": "Monatsabo",
-          "abo": [
-            {
-              "display_name": "Basic",
-              "apple_store_id": "at.kurier.one.subscription.basic.1m",
-              "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
-              "play_store_id": "at.kurier.one.subscription.basic.1m",
-              "piano_term_id_apple": "TMUAL8Q8Y5F1",
-              "piano_term_id_play": "TMGUY23F70CE",
-              "subscription_features": [
-                { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
-                { "benefit": "Tägliches ePaper mit allen Beilagen", "included": false },
-                { "benefit": "Wöchentliches Freizeit-Magazin", "included": false },
-                { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
-                { "benefit": "Rabatte in der Vorteilswelt", "included": true }
-              ],
-              "button_text": "4 Wochen für € 0,90 testen"
-            },
-            {
-              "display_name": "Premium",
-              "apple_store_id": "at.kurier.one.subscription.premium.1m",
-              "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
-              "play_store_id": "at.kurier.one.subscription.premium.1m",
-              "piano_term_id_apple": "TMUZXJLPUWZ3",
-              "piano_term_id_play": "TMNZNZXXP1TF",
-              "subscription_features": [
-                { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
-                { "benefit": "Tägliches ePaper mit allen Beilagen", "included": true },
-                { "benefit": "Wöchentliches Freizeit-Magazin", "included": true },
-                { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
-                { "benefit": "Rabatte in der Vorteilswelt", "included": true }
-              ],
-              "button_text": "4 Wochen für € 1,90 testen"
-            }
-          ]
+            "badge": false,
+            "badge_label": "",
+            "title": "Monatsabo",
+            "abo": [
+                {
+                    "display_name": "Basic",
+                    "apple_store_id": "at.kurier.one.subscription.basic.1m",
+                    "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
+                    "play_store_id": "at.kurier.one.subscription.basic.1m",
+                    "piano_term_id_apple": "TMUAL8Q8Y5F1",
+                    "piano_term_id_play": "TMGUY23F70CE",
+                    "subscription_features": [
+                        {
+                            "benefit": "Alle Artikel lesen - ohne Limits",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Tägliches ePaper mit allen Beilagen",
+                            "included": false
+                        },
+                        {
+                            "benefit": "Wöchentliches Freizeit-Magazin",
+                            "included": false
+                        },
+                        {
+                            "benefit": "Exklusiver Newsletter des Chefredakteurs",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Rabatte in der Vorteilswelt",
+                            "included": true
+                        }
+                    ],
+                    "button_text": "4 Wochen für € 0,90 testen"
+                },
+                {
+                    "display_name": "Premium",
+                    "apple_store_id": "at.kurier.one.subscription.premium.1m",
+                    "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
+                    "play_store_id": "at.kurier.one.subscription.premium.1m",
+                    "piano_term_id_apple": "TMUZXJLPUWZ3",
+                    "piano_term_id_play": "TMNZNZXXP1TF",
+                    "subscription_features": [
+                        {
+                            "benefit": "Alle Artikel lesen - ohne Limits",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Tägliches ePaper mit allen Beilagen",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Wöchentliches Freizeit-Magazin",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Exklusiver Newsletter des Chefredakteurs",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Rabatte in der Vorteilswelt",
+                            "included": true
+                        }
+                    ],
+                    "button_text": "4 Wochen für € 1,90 testen"
+                }
+            ]
         },
         "yearly": {
-          "badge": true,
-          "badge_label": "-50%",
-          "title": "Jahresabo",
-          "abo": [
-            {
-              "display_name": "Basic",
-              "apple_store_id": "at.kurier.one.subscription.basic.1y",
-              "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
-              "play_store_id": "at.kurier.one.subscription.basic.1y",
-              "piano_term_id_apple": "TMEKGMBX9IJ9",
-              "piano_term_id_play": "TMMT5SG990R0",
-              "subscription_features": [
-                { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
-                { "benefit": "Tägliches ePaper mit allen Beilagen", "included": false },
-                { "benefit": "Wöchentliches Freizeit-Magazin", "included": false },
-                { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
-                { "benefit": "Rabatte in der Vorteilswelt", "included": true }
-              ],
-              "button_text": "Jetzt abonnieren"
-            },
-            {
-              "display_name": "Premium",
-              "apple_store_id": "at.kurier.one.subscription.premium.1y",
-              "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
-              "play_store_id": "at.kurier.one.subscription.premium.1y",
-              "piano_term_id_apple": "TMKPM28RG0C1",
-              "piano_term_id_play": "TM4V90905T9Q",
-              "subscription_features": [
-                { "benefit": "Alle Artikel lesen - ohne Limits", "included": true },
-                { "benefit": "Tägliches ePaper mit allen Beilagen", "included": true },
-                { "benefit": "Wöchentliches Freizeit-Magazin", "included": true },
-                { "benefit": "Exklusiver Newsletter des Chefredakteurs", "included": true },
-                { "benefit": "Rabatte in der Vorteilswelt", "included": true }
-              ],
-              "button_text": "Jetzt abonnieren"
-            }
-          ]
+            "badge": true,
+            "badge_label": "-50%",
+            "title": "Jahresabo",
+            "abo": [
+                {
+                    "display_name": "Basic",
+                    "apple_store_id": "at.kurier.one.subscription.basic.1y",
+                    "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
+                    "play_store_id": "at.kurier.one.subscription.basic.1y",
+                    "piano_term_id_apple": "TMEKGMBX9IJ9",
+                    "piano_term_id_play": "TMMT5SG990R0",
+                    "subscription_features": [
+                        {
+                            "benefit": "Alle Artikel lesen - ohne Limits",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Tägliches ePaper mit allen Beilagen",
+                            "included": false
+                        },
+                        {
+                            "benefit": "Wöchentliches Freizeit-Magazin",
+                            "included": false
+                        },
+                        {
+                            "benefit": "Exklusiver Newsletter des Chefredakteurs",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Rabatte in der Vorteilswelt",
+                            "included": true
+                        }
+                    ],
+                    "button_text": "Jetzt abonnieren"
+                },
+                {
+                    "display_name": "Premium",
+                    "apple_store_id": "at.kurier.one.subscription.premium.1y",
+                    "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
+                    "play_store_id": "at.kurier.one.subscription.premium.1y",
+                    "piano_term_id_apple": "TMKPM28RG0C1",
+                    "piano_term_id_play": "TM4V90905T9Q",
+                    "subscription_features": [
+                        {
+                            "benefit": "Alle Artikel lesen - ohne Limits",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Tägliches ePaper mit allen Beilagen",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Wöchentliches Freizeit-Magazin",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Exklusiver Newsletter des Chefredakteurs",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Rabatte in der Vorteilswelt",
+                            "included": true
+                        }
+                    ],
+                    "button_text": "Jetzt abonnieren"
+                }
+            ]
         }
-      },
+    },
     "epaper_regions": [
         {
             "title": "Wien",
-            "twipeId": "MPRKURwm"
+            "twipeId": "MPRKURwm",
+            "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-wien.svg"
         },
         {
             "title": "Niederösterreich",
-            "twipeId": "MPRKURn"
+            "twipeId": "MPRKURn",
+            "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-niederoesterreich.svg"
         },
         {
-          "title": "Burgenland",
-          "twipeId": "MPRKURb"
+            "title": "Burgenland",
+            "twipeId": "MPRKURb",
+            "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-burgenland.svg"
         },
         {
-          "title": "Österreich",
-          "twipeId": "MPRKURl"
+            "title": "Österreich",
+            "twipeId": "MPRKURl",
+            "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-oesterreich.svg"
         }
     ],
     "epaper_paywall": {
@@ -188,72 +459,77 @@
         "feed_url": "https://stage.twipe.telekurier.at/tokens/MPRKURwm/aggregate",
         "number_of_kiosk_issues": 7,
         "number_of_archive_issues": 30
-      },
-      "onboarding": {
-        "slide_1": {
-          "swiper_1": {
-            "title": "Nachrichten im richtigen Format",
-            "description": "Artikel, wie Sie es wollen: Im News-Ticker, als Story, im ePaper oder zum Hören.",
-            "image": ""
+    },
+    "onboarding": {
+        "feature_pages": [
+            {
+                "title": "Nachrichten im richtigen Format",
+                "description": "Artikel, wie Sie es wollen: Im News-Ticker, als Story, im ePaper oder zum Hören.",
+                "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/bilder/swiper-image-01.png"
             },
-            "swiper_2": {
-              "title": "Artikel speichern & Themen personalisieren",
-              "description": "Nutzen Sie praktische Funktionen wie die Merkliste und Themenauswahl.",
-              "image": ""
+            {
+                "title": "Artikel speichern & Themen personalisieren",
+                "description": "Nutzen Sie praktische Funktionen wie die Merkliste und Themenauswahl.",
+                "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/bilder/swiper-image-02.png"
             },
-            "swiper_3": {
-              "title": "Die digitale Tageszeitung im neuen Kiosk",
-              "description": "Lesen Sie den KURIER und alle Beilagen ganz bequem auf Ihrem Smartphone oder Tablet.",
-              "image": ""
+            {
+                "title": "Die digitale Tageszeitung im neuen Kiosk",
+                "description": "Lesen Sie den KURIER und alle Beilagen ganz bequem auf Ihrem Smartphone oder Tablet.",
+                "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/bilder/swiper-image-03.png"
             }
+        ],
+        "topics": {
+            "title": "Was lesen Sie gerne?",
+            "description": "Ihre Auswahl können Sie später ändern und aus weiteren Themen wählen.",
+            "button_text": "Weiter",
+            "skip_text": "Vielleicht später"
         },
-        "slide_2": {
-        "title": "Was lesen Sie gerne?",
-        "description": "Ihre Auswahl können Sie später ändern und aus weiteren Themen wählen.",
-        "button_text": "Weiter",
-        "skip_text": "Vielleicht später",
-        "topics": [
-            { "title": "Politik", "link": "/kurierat/politik", "image": "" },
-            { "title": "Wirtschaft", "link": "/kurierat/wirtschaft", "image": "" },
-            { "title": "Sport", "link": "/kurierat/sport", "image": "" },
-            { "title": "Gesundheit", "link": "/kurierat/gesundheit", "image": "" },
-            { "title": "Kultur", "link": "/kurierat/kultur", "image": "" },
-            { "title": "Stars", "link": "/kurierat/stars", "image": "" }
-        ]
+        "epaper": {
+            "title": "Welche ePaper-Ausgabe möchten Sie lesen?",
+            "description": "",
+            "button_text": "Weiter",
+            "skip_text": "Vielleicht später"
         },
-        "slide_3": {
-        "title": "Welche ePaper-Ausgabe möchten Sie lesen?",
-        "description": "",
-        "button_text": "Weiter",
-        "skip_text": "Vielleicht später",
-        "topics": [
-            { "title": "Politik", "link": "/kurierat/politik", "image": "" },
-            { "title": "Wirtschaft", "link": "/kurierat/wirtschaft", "image": "" }
-        ]
+        "push_notifications": {
+            "title": "Dürfen wir Sie benachrichtigen?",
+            "description": "Wir informieren Sie über wichtige Updates und sobald eine neue ePaper-Ausgabe erscheint.",
+            "button_text": "Ich möchte benachrichtigt werden",
+            "skip_text": "Vielleicht später",
+            "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/bilder/push-visual-image.png"
+        },
+        "registration": {
+            "title": "Ihr kostenloser Zugang zum KURIER",
+            "subtitle": "Registrieren Sie sich jetzt kostenlos und entdecken Sie alle Vorteile unserer App.",
+            "benefits": [
+                "Gratis Probeabo freischalten",
+                "Themenbereiche personalisieren",
+                "Merkliste & Vorlesenfunktion",
+                "Viele neue Funktionen entdecken"
+            ]
         }
     },
     "epaper_interstitials": [
-    {
+        {
             "index": 5,
             "url": "/39025507/epaper.kurier.at/oesterreich/page01",
             "active": false
         },
-    {
+        {
             "index": 7,
             "url": "/39025507/epaper.kurier.at/oesterreich/page02",
             "active": true
         },
-    {
+        {
             "index": 9,
             "url": "/39025507/epaper.kurier.at/oesterreich/page03",
             "active": false
         },
-    {
+        {
             "index": 11,
             "url": "/39025507/epaper.kurier.at/oesterreich/page04",
             "active": true
         },
-    {
+        {
             "index": 13,
             "url": "/39025507/epaper.kurier.at/oesterreich/page05",
             "active": false
