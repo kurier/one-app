@@ -8,6 +8,7 @@
         "title": "Themen und Ressorts",
         "link": "/kurierat",
         "children": [
+            { "title": "Politik", "link": "/kurierat/politik" },
             { "title": "Außenpolitik", "link": "/kurierat/politik/ausland" },
             { "title": "Innenpolitik", "link": "/kurierat/politik/inland" },
             { "title": "Wirtschaft", "link": "/kurierat/wirtschaft" },
@@ -23,12 +24,12 @@
             { "title": "Vorarlberg", "link": "/kurierat/chronik/vorarlberg" },
             { "title": "Weltchronik", "link": "/kurierat/chronik/welt" },
             { "title": "Sport", "link": "/kurierat/sport" },
-            { "title": "Formel 1", "link": "/kurierat/sport/formel-1" },
             { "title": "Fußball", "link": "/kurierat/sport/fussball" },
+            { "title": "Motorsport", "link": "/kurierat/sport/motorsport" },
             { "title": "Stars", "link": "/kurierat/stars" },
-            { "title": "Wissen und Gesundheit", "link": "/kurierat/wissen" },
+            { "title": "Gesundheit", "link": "/kurierat/gesund" },
             { "title": "Lifestyle", "link": "/kurierat/freizeit" },
-            { "title": "Reise", "link": "/kurierat/reise" },
+            { "title": "Reise", "link": "/kurierat/freizeit/reise" },
             { "title": "Kultur", "link": "/kurierat/kultur" },
             { "title": "Kolumnen", "link": "/kurierat/kolumnen" },
             { "title": "Meinung", "link": "/kurierat/meinung" },
@@ -187,5 +188,75 @@
         "feed_url": "https://stage.twipe.telekurier.at/tokens/MPRKURwm/aggregate",
         "number_of_kiosk_issues": 7,
         "number_of_archive_issues": 30
-      }
+      },
+      "onboarding": {
+        "slide_1": {
+          "swiper_1": {
+            "title": "Nachrichten im richtigen Format",
+            "description": "Artikel, wie Sie es wollen: Im News-Ticker, als Story, im ePaper oder zum Hören.",
+            "image": ""
+            },
+            "swiper_2": {
+              "title": "Artikel speichern & Themen personalisieren",
+              "description": "Nutzen Sie praktische Funktionen wie die Merkliste und Themenauswahl.",
+              "image": ""
+            },
+            "swiper_3": {
+              "title": "Die digitale Tageszeitung im neuen Kiosk",
+              "description": "Lesen Sie den KURIER und alle Beilagen ganz bequem auf Ihrem Smartphone oder Tablet.",
+              "image": ""
+            }
+        },
+        "slide_2": {
+        "title": "Was lesen Sie gerne?",
+        "description": "Ihre Auswahl können Sie später ändern und aus weiteren Themen wählen.",
+        "button_text": "Weiter",
+        "skip_text": "Vielleicht später",
+        "topics": [
+            { "title": "Politik", "link": "/kurierat/politik", "image": "" },
+            { "title": "Wirtschaft", "link": "/kurierat/wirtschaft", "image": "" },
+            { "title": "Sport", "link": "/kurierat/sport", "image": "" },
+            { "title": "Gesundheit", "link": "/kurierat/gesundheit", "image": "" },
+            { "title": "Kultur", "link": "/kurierat/kultur", "image": "" },
+            { "title": "Stars", "link": "/kurierat/stars", "image": "" }
+        ]
+        },
+        "slide_3": {
+        "title": "Welche ePaper-Ausgabe möchten Sie lesen?",
+        "description": "",
+        "button_text": "Weiter",
+        "skip_text": "Vielleicht später",
+        "topics": [
+            { "title": "Politik", "link": "/kurierat/politik", "image": "" },
+            { "title": "Wirtschaft", "link": "/kurierat/wirtschaft", "image": "" }
+        ]
+        }
+    },
+    "epaper_interstitials": [
+    {
+            "index": 5,
+            "url": "/39025507/epaper.kurier.at/oesterreich/page01",
+            "active": false
+        },
+    {
+            "index": 7,
+            "url": "/39025507/epaper.kurier.at/oesterreich/page02",
+            "active": true
+        },
+    {
+            "index": 9,
+            "url": "/39025507/epaper.kurier.at/oesterreich/page03",
+            "active": false
+        },
+    {
+            "index": 11,
+            "url": "/39025507/epaper.kurier.at/oesterreich/page04",
+            "active": true
+        },
+    {
+            "index": 13,
+            "url": "/39025507/epaper.kurier.at/oesterreich/page05",
+            "active": false
+        }
+    ]
 }
