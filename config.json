@@ -5,7 +5,8 @@
     "menu_content": "https://efs-varnish.kurier.at/api/v1/cfs/menu/kurierat-kurier-one-home-picker",
     "allowed_domains": [
         "kurier.at",
-        "futurezone.at"
+        "futurezone.at",
+        "api.cxense.com"
     ],
     "topics": {
         "title": "Themen und Ressorts",
