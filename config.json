@@ -535,5 +535,10 @@
             "url": "/39025507/epaper.kurier.at/oesterreich/page05",
             "active": false
         }
+    ],
+    "epaper_magazines": [
+        "Freizeit",
+        "Immobilien",
+        "Techno-Kurier"
     ]
 }
