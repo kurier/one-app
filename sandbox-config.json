@@ -456,7 +456,7 @@
         }
     },
     "epaper_feed": {
-        "feed_url": "https://stage.twipe.telekurier.at/tokens/MPRKURwm/aggregate",
+        "feed_url": "https://stage.twipe.telekurier.at/tokens/@@@region_token@@@/aggregate",
         "number_of_kiosk_issues": 7,
         "number_of_archive_issues": 30
     },
