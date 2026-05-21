@@ -464,8 +464,8 @@
     "onboarding": {
         "feature_pages": [
             {
-                "title": "Nachrichten im richtigen Format",
-                "description": "Artikel, wie Sie es wollen: Im News-Ticker, als Story, im ePaper oder zum Hören.",
+                "title": "Willkommen in der neuen KURIER App",
+                "description": "Nachrichten im richtigen Format: Im News-Ticker, als Story, im ePaper oder zum Hören.",
                 "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/bilder/swiper-image-01.png"
             },
             {
