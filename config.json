@@ -512,27 +512,27 @@
     "epaper_interstitials": [
         {
             "index": 5,
-            "url": "/39025507/epaper.kurier.at/oesterreich/page01",
+            "url": "/39025507/epaper.kurier.at/Gesamt/page01",
             "active": false
         },
         {
             "index": 7,
-            "url": "/39025507/epaper.kurier.at/oesterreich/page02",
+            "url": "/39025507/epaper.kurier.at/Gesamt/page02",
             "active": true
         },
         {
             "index": 9,
-            "url": "/39025507/epaper.kurier.at/oesterreich/page03",
+            "url": "/39025507/epaper.kurier.at/Gesamt/page03",
             "active": false
         },
         {
             "index": 11,
-            "url": "/39025507/epaper.kurier.at/oesterreich/page04",
+            "url": "/39025507/epaper.kurier.at/Gesamt/page04",
             "active": true
         },
         {
             "index": 13,
-            "url": "/39025507/epaper.kurier.at/oesterreich/page05",
+            "url": "/39025507/epaper.kurier.at/Gesamt/page05",
             "active": false
         }
     ],
