@@ -451,9 +451,9 @@
         "piano_resource": "RSOZBCU",
         "product": {
             "title": "KURIER Einzelausgabe",
-            "price": "2,90",
-            "apple_store_id": "at.kurier.one.einzelausgabe",
-            "play_store_id": "at.kurier.one.einzelausgabe"
+            "price": "3,49",
+            "apple_store_id": "at.kurier.one.einzelkauf",
+            "play_store_id": "at.kurier.one.einzelkauf"
         }
     },
     "epaper_feed": {
