@@ -5,7 +5,8 @@
     "menu_content": "https://efs-varnish.kurier.at/api/v1/cfs/menu/kurierat-kurier-one-home-picker",
     "allowed_domains": [
         "kurier.at",
-        "futurezone.at"
+        "futurezone.at",
+        "api.cxense.com"
     ],
     "topics": {
         "title": "Themen und Ressorts",
@@ -456,7 +457,7 @@
         }
     },
     "epaper_feed": {
-        "feed_url": "https://twipe.telekurier.at/tokens/@@@region_token@@@/aggregate",
+        "feed_url": "https://stage.twipe.telekurier.at/tokens/@@@region_token@@@/aggregate",
         "number_of_kiosk_issues": 7,
         "number_of_archive_issues": 30
     },
