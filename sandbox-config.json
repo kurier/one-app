@@ -293,8 +293,8 @@
             "abo": [
                 {
                     "display_name": "Basic",
-                    "apple_store_id": "at.kurier.one.subscription.basic.1m",
-                    "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
+                    "apple_store_id": "at.kurier.one.dev.subscription.basic.1m",
+                    "apple_store_offer_id": "at.kurier.one.dev.subscription.basic.1y.promo",
                     "play_store_id": "at.kurier.one.subscription.basic.1m",
                     "piano_term_id_apple": "TMWQ4YOO5OPO",
                     "piano_term_id_play": "TMEKJ0I191L2",
@@ -324,8 +324,8 @@
                 },
                 {
                     "display_name": "Premium",
-                    "apple_store_id": "at.kurier.one.subscription.premium.1m",
-                    "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
+                    "apple_store_id": "at.kurier.one.dev.subscription.premium.1m",
+                    "apple_store_offer_id": "at.kurier.one.dev.subscription.premium.1y.promo",
                     "play_store_id": "at.kurier.one.subscription.premium.1m",
                     "piano_term_id_apple": "TMZMMK53OE2M",
                     "piano_term_id_play": "TMDHY34Y7FFF",
@@ -362,8 +362,8 @@
             "abo": [
                 {
                     "display_name": "Basic",
-                    "apple_store_id": "at.kurier.one.subscription.basic.1y",
-                    "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
+                    "apple_store_id": "at.kurier.one.dev.subscription.basic.1y",
+                    "apple_store_offer_id": "at.kurier.one.dev.subscription.basic.1y.promo",
                     "play_store_id": "at.kurier.one.subscription.basic.1y",
                     "piano_term_id_apple": "TMLVRJM1Q3RE",
                     "piano_term_id_play": "TMZAV6Q5E6WZ",
@@ -393,8 +393,8 @@
                 },
                 {
                     "display_name": "Premium",
-                    "apple_store_id": "at.kurier.one.subscription.premium.1y",
-                    "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
+                    "apple_store_id": "at.kurier.one.dev.subscription.premium.1y",
+                    "apple_store_offer_id": "at.kurier.one.dev.subscription.premium.1y.promo",
                     "play_store_id": "at.kurier.one.subscription.premium.1y",
                     "piano_term_id_apple": "TM3837N4F6U2",
                     "piano_term_id_play": "TM1UDQZV1E4N",
