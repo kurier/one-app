@@ -293,7 +293,7 @@
             "abo": [
                 {
                     "display_name": "Basic",
-                    "apple_store_id": "at.kurier.one.subscription.basic.1m",
+                    "apple_store_id": "at.kurier.subscription.basic.1m",
                     "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
                     "play_store_id": "at.kurier.one.subscription.basic.1m",
                     "piano_term_id_apple": "TMASOGCYTLC1",
@@ -324,7 +324,7 @@
                 },
                 {
                     "display_name": "Premium",
-                    "apple_store_id": "at.kurier.one.subscription.premium.1m",
+                    "apple_store_id": "at.kurier.subscription.premium.1m",
                     "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
                     "play_store_id": "at.kurier.one.subscription.premium.1m",
                     "piano_term_id_apple": "TM7MT59TSYSZ",
@@ -362,7 +362,7 @@
             "abo": [
                 {
                     "display_name": "Basic",
-                    "apple_store_id": "at.kurier.one.subscription.basic.1y",
+                    "apple_store_id": "at.kurier.subscription.basic.1y",
                     "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
                     "play_store_id": "at.kurier.one.subscription.basic.1y",
                     "piano_term_id_apple": "TM3JA5MN2NN6",
@@ -393,7 +393,7 @@
                 },
                 {
                     "display_name": "Premium",
-                    "apple_store_id": "at.kurier.one.subscription.premium.1y",
+                    "apple_store_id": "at.kurier.subscription.premium.1y",
                     "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
                     "play_store_id": "at.kurier.one.subscription.premium.1y",
                     "piano_term_id_apple": "TMO87SOZ1X2Y",
