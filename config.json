@@ -456,7 +456,7 @@
             "play_store_id": "at.kurier.one.einzelkauf"
         }
     },
-    "kurier-mode": true,
+    "kurier-mode": false,
     "epaper_feed": {
         "feed_url": "https://twipe.telekurier.at/tokens/@@@region_token@@@/aggregate",
         "number_of_kiosk_issues": 10,
