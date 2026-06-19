@@ -294,7 +294,7 @@
                 {
                     "display_name": "Basic",
                     "apple_store_id": "at.kurier.subscription.basic.1m",
-                    "apple_store_offer_id": "at.kurier.one.subscription.basic.1y.promo",
+                    "apple_store_offer_id": "at.kurier.one.subscription.basic.1m.promo",
                     "play_store_id": "at.kurier.one.subscription.basic.1m",
                     "piano_term_id_apple": "TMASOGCYTLC1",
                     "piano_term_id_play": "TMU57F61QXKH",
