@@ -457,6 +457,9 @@
         }
     },
     "kurier-mode": true,
+    "services": {
+        "clarity": true
+    },
     "epaper_feed": {
         "feed_url": "https://twipe.telekurier.at/tokens/@@@region_token@@@/aggregate",
         "number_of_kiosk_issues": 10,
