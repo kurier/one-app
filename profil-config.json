@@ -1,174 +1,95 @@
 {
-    "menu_content": "https://efs-varnish.kurier.at/api/v1/cfs/menu/kurierat-kurier-one-home-picker",
+    "menu_content": "https://efs-varnish.kurier.at/api/v1/cfs/menu/profilat-main-v2",
     "allowed_domains": [
-        "kurier.at",
-        "futurezone.at",
+        "profil.at",
         "api.cxense.com"
     ],
     "topics": {
         "title": "Themen und Ressorts",
-        "link": "/kurierat",
+        "link": "/profilat",
         "children": [
             {
-                "title": "Politik",
-                "link": "/kurierat/politik",
-                "icon": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-politik.svg",
+                "title": "Meinung",
+                "link": "/profilat/meinung",
+                "icon": "",
                 "onboarding": true
             },
             {
-                "title": "Außenpolitik",
-                "link": "/kurierat/politik/ausland",
+                "title": "Investigativ",
+                "link": "/profilat/investigativ",
                 "icon": "",
-                "onboarding": false
+                "onboarding": true
             },
             {
-                "title": "Innenpolitik",
-                "link": "/kurierat/politik/inland",
+                "title": "Österreich",
+                "link": "/profilat/oesterreich",
                 "icon": "",
-                "onboarding": false
+                "onboarding": true
             },
             {
                 "title": "Wirtschaft",
-                "link": "/kurierat/wirtschaft",
-                "icon": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-wirtschaft.svg",
+                "link": "/profilat/wirtschaft",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Ausland",
+                "link": "/profilat/ausland",
+                "icon": "",
                 "onboarding": true
             },
             {
-                "title": "Chronik",
-                "link": "/kurierat/chronik",
+                "title": "Gesellschaft",
+                "link": "/profilat/gesellschaft",
                 "icon": "",
                 "onboarding": false
             },
             {
-                "title": "Wien",
-                "link": "/kurierat/chronik/wien",
+                "title": "Wissenschaft",
+                "link": "/profilat/wissenschaft",
                 "icon": "",
                 "onboarding": false
-            },
-            {
-                "title": "Niederösterreich",
-                "link": "/kurierat/chronik/niederoesterreich",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Burgenland",
-                "link": "/kurierat/chronik/burgenland",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Oberösterreich",
-                "link": "/kurierat/chronik/oberoesterreich",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Steiermark",
-                "link": "/kurierat/chronik/steiermark",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Salzburg",
-                "link": "/kurierat/chronik/salzburg",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Tirol",
-                "link": "/kurierat/chronik/tirol",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Kärnten",
-                "link": "/kurierat/chronik/kaernten",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Vorarlberg",
-                "link": "/kurierat/chronik/vorarlberg",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Weltchronik",
-                "link": "/kurierat/chronik/welt",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Sport",
-                "link": "/kurierat/sport",
-                "icon": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-fussball.svg",
-                "onboarding": true
-            },
-            {
-                "title": "Fußball",
-                "link": "/kurierat/sport/fussball",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Motorsport",
-                "link": "/kurierat/sport/motorsport",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Gesundheit",
-                "link": "/kurierat/gesund",
-                "icon": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-gesundheit.svg",
-                "onboarding": true
             },
             {
                 "title": "Kultur",
-                "link": "/kurierat/kultur",
-                "icon": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-kultur.svg",
+                "link": "/profilat/kultur",
+                "icon": "",
                 "onboarding": true
             },
             {
-                "title": "Stars",
-                "link": "/kurierat/stars",
-                "icon": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/illustrationen/illustration-stars.svg",
-                "onboarding": true
-            },
-            {
-                "title": "Lifestyle",
-                "link": "/kurierat/freizeit",
+                "title": "faktiv",
+                "link": "/profilat/faktiv",
                 "icon": "",
                 "onboarding": false
             },
             {
-                "title": "Reise",
-                "link": "/kurierat/freizeit/reise",
+                "title": "Signa",
+                "link": "/profilat/signa-benko",
                 "icon": "",
                 "onboarding": false
             },
             {
-                "title": "Kolumnen",
-                "link": "/kurierat/kolumnen",
+                "title": "Nahost-Konflikt",
+                "link": "/profilat/profil-nahost-konflikt",
                 "icon": "",
                 "onboarding": false
             },
             {
-                "title": "Meinung",
-                "link": "/kurierat/meinung",
+                "title": "Krieg in der Ukraine",
+                "link": "/profilat/ukraine-krieg",
                 "icon": "",
                 "onboarding": false
             },
             {
-                "title": "Podcasts",
-                "link": "/kurierat/podcasts",
+                "title": "55 Jahre profil",
+                "link": "/profilat/55-jahre-profil",
                 "icon": "",
                 "onboarding": false
             }
         ]
     },
     "article_paywall": {
-        "piano_resource": "RVBLMMZ",
+        "piano_resource": "RYR0HW4",
         "heading": "Dieser Artikel ist in unseren Abos enthalten",
         "monthly": {
             "badge": false,
