@@ -1,5 +1,5 @@
 {
-    "menu_content": "https://kurier.github.io/one-app/profil-test-menu",
+    "menu_content": "https://efs-varnish.kurier.at/api/v1/cfs/menu/kurierat-kurier-one-home-picker",
     "allowed_domains": [
         "kurier.at",
         "profil.at",
