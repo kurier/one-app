@@ -1,5 +1,5 @@
 {
-    "menu_content": "https://efs-varnish.kurier.at/api/v1/cfs/menu/kurierat-kurier-one-home-picker",
+    "menu_content": "https://efs-varnish.kurier.at/api/v1/cfs/menu/profilat-main-v2",
     "allowed_domains": [
         "kurier.at",
         "profil.at",
