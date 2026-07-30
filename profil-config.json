@@ -2,6 +2,7 @@
     "menu_content": "https://efs-varnish.kurier.at/api/v1/cfs/menu/profilat-main-v2",
     "allowed_domains": [
         "kurier.at",
+        "www.profil.at",
         "profil.at",
         "api.cxense.com"
     ],
