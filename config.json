@@ -171,9 +171,10 @@
         ]
     },
     "player": {
+        "start_playlist": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=10",
         "playlists": [
             {
-                "title": "Startseite",
+                "title": "Nachrichtenbriefing",
                 "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=10"
             },
             {
