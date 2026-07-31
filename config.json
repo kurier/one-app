@@ -170,6 +170,26 @@
             }
         ]
     },
+    "player": {
+        "playlists": [
+            {
+                "title": "Startseite",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=10"
+            },
+            {
+                "title": "Morgenbriefing",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Fruehdienst%20Morgennewsletter?limit=5"
+            },
+            {
+                "title": "Innenpolitik",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Innenpolitik%20Topstories%20Channelebene"
+            },
+            {
+                "title": "Wirtschaftsbriefing",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wirtschaftsbriefing_Newsletter"
+            }
+        ]
+    },
     "regions": [
         {
             "name": "Wien",
