@@ -1,5 +1,8 @@
 {
-    "menu_content": "https://efs-varnish.profil.at/api/v1/cfs/menu/profilat-main-v2",
+    "bubbles_content": "",
+    "bubbles_ads": "",
+    "bubble_max_count": 0,
+    "menu_content": "https://efs-varnish.profil.at/api/v1/cfs/menu/profilat-profil-one-home-picker",
     "allowed_domains": [
         "kurier.at",
         "www.profil.at",
@@ -90,6 +93,11 @@
             }
         ]
     },
+    "player": {
+        "start_playlist": "",
+        "playlists": []
+    },
+    "regions": [],
     "article_paywall": {
         "piano_resource": "RYR0HW4",
         "heading": "Dieser Artikel ist in unseren Abos enthalten",
@@ -230,6 +238,13 @@
             ]
         }
     },
+    "epaper_regions": [
+        {
+            "title": "Profil",
+            "twipeId": "PRO",
+            "image": ""
+        }
+    ],
     "epaper_paywall": {
         "piano_resource": "RSOZBCU",
         "product": {
@@ -272,6 +287,12 @@
             "description": "Ihre Auswahl können Sie später ändern und aus weiteren Themen wählen.",
             "button_text": "Weiter",
             "skip_text": "Vielleicht später"
+        },
+        "epaper": {
+            "title": "",
+            "description": "",
+            "button_text": "",
+            "skip_text": ""
         },
         "push_notifications": {
             "title": "Dürfen wir Sie benachrichtigen?",
@@ -317,5 +338,6 @@
             "url": "/39025507/epaper.kurier.at/Gesamt/page05",
             "active": false
         }
-    ]
+    ],
+    "epaper_magazines": []
 }
