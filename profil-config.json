@@ -241,7 +241,7 @@
     "epaper_regions": [
         {
             "title": "Profil",
-            "twipeId": "PRO",
+            "twipeId": "MPRPROp",
             "image": ""
         }
     ],
@@ -259,9 +259,9 @@
         "clarity": true
     },
     "epaper_feed": {
-        "feed_url": "https://twipe.telekurier.at/tokens/@@@region_token@@@/aggregate",
+        "feed_url": "https://stage.twipe.telekurier.at/tokens/@@@region_token@@@/aggregate",
         "number_of_kiosk_issues": 10,
-        "number_of_archive_issues": 30,
+        "number_of_archive_issues": 60,
         "early_access_time": "19:00:00"
     },
     "onboarding": {
