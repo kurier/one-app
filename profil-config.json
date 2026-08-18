@@ -315,27 +315,27 @@
     "epaper_interstitials": [
         {
             "index": 5,
-            "url": "/39025507/epaper.kurier.at/Gesamt/page01",
+            "url": "/39025507/epaper.profil.at/ros/page01",
             "active": false
         },
         {
-            "index": 7,
-            "url": "/39025507/epaper.kurier.at/Gesamt/page02",
+            "index": 10,
+            "url": "/39025507/epaper.profil.at/ros/page02",
             "active": true
         },
         {
-            "index": 9,
-            "url": "/39025507/epaper.kurier.at/Gesamt/page03",
+            "index": 15,
+            "url": "/39025507/epaper.profil.at/ros/page03",
             "active": false
         },
         {
-            "index": 11,
-            "url": "/39025507/epaper.kurier.at/Gesamt/page04",
+            "index": 20,
+            "url": "/39025507/epaper.profil.at/ros/page04",
             "active": true
         },
         {
-            "index": 13,
-            "url": "/39025507/epaper.kurier.at/Gesamt/page05",
+            "index": 25,
+            "url": "/39025507/epaper.profil.at/ros/page05",
             "active": false
         }
     ],

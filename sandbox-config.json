@@ -170,6 +170,27 @@
             }
         ]
     },
+    "player": {
+        "start_playlist": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=10",
+        "playlists": [
+            {
+                "title": "Nachrichtenbriefing",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=10"
+            },
+            {
+                "title": "Morgenbriefing",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Fruehdienst%20Morgennewsletter?limit=5"
+            },
+            {
+                "title": "Innenpolitik",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Innenpolitik%20Topstories%20Channelebene"
+            },
+            {
+                "title": "Wirtschaftsbriefing",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wirtschaftsbriefing_Newsletter"
+            }
+        ]
+    },
     "regions": [
         {
             "name": "Wien",
@@ -455,6 +476,10 @@
             "apple_store_id": "at.kurier.one.einzelkauf",
             "play_store_id": "at.kurier.one.einzelkauf"
         }
+    },
+    "kurier-mode": true,
+    "services": {
+        "clarity": true
     },
     "epaper_feed": {
         "feed_url": "https://stage.twipe.telekurier.at/tokens/@@@region_token@@@/aggregate",
