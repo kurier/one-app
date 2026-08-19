@@ -175,21 +175,26 @@
         "playlists": [
             {
                 "title": "Nachrichtenbriefing",
+                "subtitle": "Die wichtigsten Nachrichten des Tages",
                 "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=10"
             },
             {
                 "title": "Morgenbriefing",
+                "subtitle": "Die wichtigsten Nachrichten des Morgens",
                 "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Fruehdienst%20Morgennewsletter?limit=5"
             },
             {
                 "title": "Innenpolitik",
+                "subtitle": "Die wichtigsten Nachrichten der Innenpolitik",
                 "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Innenpolitik%20Topstories%20Channelebene"
             },
             {
                 "title": "Wirtschaftsbriefing",
+                "subtitle": "Die wichtigsten Nachrichten der Wirtschaft",
                 "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wirtschaftsbriefing_Newsletter"
             }
-        ]
+        ],
+        "video_tab": "https://kurier.at/video"
     },
     "regions": [
         {

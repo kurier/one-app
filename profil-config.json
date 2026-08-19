@@ -95,7 +95,8 @@
     },
     "player": {
         "start_playlist": "",
-        "playlists": []
+        "playlists": [],
+        "video_tab": ""
     },
     "regions": [],
     "article_paywall": {
