@@ -6,7 +6,8 @@
     "allowed_domains": [
         "kurier.at",
         "futurezone.at",
-        "api.cxense.com"
+        "api.cxense.com",
+        "vorteilswelt.kurier.at"
     ],
     "topics": {
         "title": "Themen und Ressorts",
