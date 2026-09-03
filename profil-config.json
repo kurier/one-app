@@ -188,19 +188,11 @@
                             "included": true
                         },
                         {
-                            "benefit": "Tägliches ePaper mit allen Beilagen",
+                            "benefit": "Wöchentliches ePaper mit allen Beilagen",
                             "included": false
                         },
                         {
-                            "benefit": "Wöchentliches Freizeit-Magazin",
-                            "included": false
-                        },
-                        {
-                            "benefit": "Exklusiver Newsletter des Chefredakteurs",
-                            "included": true
-                        },
-                        {
-                            "benefit": "Attraktive Rabatte im KURIER club",
+                            "benefit": "Jederzeit kündbar",
                             "included": true
                         }
                     ],
@@ -218,19 +210,11 @@
                             "included": true
                         },
                         {
-                            "benefit": "Tägliches ePaper mit allen Beilagen",
+                            "benefit": "Wöchentliches ePaper mit allen Beilagen",
                             "included": true
                         },
                         {
-                            "benefit": "Wöchentliches Freizeit-Magazin",
-                            "included": true
-                        },
-                        {
-                            "benefit": "Exklusiver Newsletter des Chefredakteurs",
-                            "included": true
-                        },
-                        {
-                            "benefit": "Attraktive Rabatte im KURIER club",
+                            "benefit": "Jederzeit kündbar",
                             "included": true
                         }
                     ],
@@ -268,19 +252,19 @@
     "onboarding": {
         "feature_pages": [
             {
-                "title": "Willkommen in der neuen KURIER App",
+                "title": "Willkommen in der neuen profil App",
                 "description": "Nachrichten im richtigen Format: Im News-Ticker, als Story, im ePaper oder zum Hören.",
-                "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/bilder/swiper-image-01.png"
+                "image": ""
             },
             {
                 "title": "Artikel speichern & Themen personalisieren",
                 "description": "Nutzen Sie praktische Funktionen wie die Merkliste und Themenauswahl.",
-                "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/bilder/swiper-image-02.png"
+                "image": ""
             },
             {
-                "title": "Die digitale Tageszeitung im neuen Kiosk",
-                "description": "Lesen Sie den KURIER und alle Beilagen ganz bequem auf Ihrem Smartphone oder Tablet.",
-                "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/bilder/swiper-image-03.png"
+                "title": "Das wöchentliche Magazin im neuen Kiosk",
+                "description": "Lesen Sie das profil und alle Beilagen ganz bequem auf Ihrem Smartphone oder Tablet.",
+                "image": ""
             }
         ],
         "topics": {
@@ -300,7 +284,7 @@
             "description": "Wir informieren Sie über wichtige Updates und sobald eine neue ePaper-Ausgabe erscheint.",
             "button_text": "Ich möchte benachrichtigt werden",
             "skip_text": "Vielleicht später",
-            "image": "https://static.kurier.at/kampagnen/app/app-onboarding-assets/bilder/push-visual-image.png"
+            "image": ""
         },
         "registration": {
             "title": "Ihr kostenloser Zugang zur profil-App",
