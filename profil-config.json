@@ -90,6 +90,18 @@
                 "link": "/profilat/55-jahre-profil",
                 "icon": "",
                 "onboarding": false
+            },
+            {
+                "title": "Anna Thalhammer (Autorin)",
+                "link": "/profilat/author/anna.thalhammer",
+                "icon": "",
+                "onboarding": false
+            },
+            {
+                "title": "Gernot Bauer (Autor)",
+                "link": "/profilat/author/gernot.bauer",
+                "icon": "",
+                "onboarding": false
             }
         ]
     },
