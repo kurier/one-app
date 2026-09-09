@@ -121,9 +121,8 @@
             "abo": [
                 {
                     "display_name": "Basic",
-                    "apple_store_id": "at.kurier.subscription.basic.1m",
-                    "apple_store_offer_id": "at.kurier.one.subscription.basic.1m.promo",
-                    "play_store_id": "at.kurier.one.subscription.basic.1m",
+                    "apple_store_id": "at.profil.one.subscription.basic.1m",
+                    "play_store_id": "at.profil.one.subscription.basic.1m",
                     "piano_term_id_apple": "TMASOGCYTLC1",
                     "piano_term_id_play": "TMU57F61QXKH",
                     "subscription_features": [
@@ -152,9 +151,8 @@
                 },
                 {
                     "display_name": "Premium",
-                    "apple_store_id": "at.kurier.subscription.premium.1m",
-                    "apple_store_offer_id": "at.kurier.one.subscription.premium.1y.promo",
-                    "play_store_id": "at.kurier.one.subscription.premium.1m",
+                    "apple_store_id": "at.profil.one.subscription.premium.1m",
+                    "play_store_id": "at.profil.one.subscription.premium.1m",
                     "piano_term_id_apple": "TM7MT59TSYSZ",
                     "piano_term_id_play": "TME698ONFN4U",
                     "subscription_features": [
@@ -185,13 +183,13 @@
         },
         "yearly": {
             "badge": true,
-            "badge_label": "-50%",
+            "badge_label": "Reduziert",
             "title": "Jahresabo",
             "abo": [
                 {
                     "display_name": "Basic",
-                    "apple_store_id": "at.kurier.subscription.basic.1y",
-                    "play_store_id": "at.kurier.one.subscription.basic.1y",
+                    "apple_store_id": "at.profil.one.subscription.basic.1y",
+                    "play_store_id": "at.profil.one.subscription.basic.1y",
                     "piano_term_id_apple": "TM3JA5MN2NN6",
                     "piano_term_id_play": "TMDG6H8RWI6M",
                     "subscription_features": [
@@ -212,8 +210,8 @@
                 },
                 {
                     "display_name": "Premium",
-                    "apple_store_id": "at.kurier.subscription.premium.1y",
-                    "play_store_id": "at.kurier.one.subscription.premium.1y",
+                    "apple_store_id": "at.profil.one.subscription.premium.1y",
+                    "play_store_id": "at.profil.one.subscription.premium.1y",
                     "piano_term_id_apple": "TMO87SOZ1X2Y",
                     "piano_term_id_play": "TMHRXR5L3WIQ",
                     "subscription_features": [
