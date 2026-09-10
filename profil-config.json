@@ -120,7 +120,7 @@
             "title": "Monatsabo",
             "abo": [
                 {
-                    "display_name": "Basic",
+                    "display_name": "profil+",
                     "apple_store_id": "at.profil.one.subscription.basic.1m",
                     "play_store_id": "at.profil.one.subscription.basic.1m",
                     "piano_term_id_apple": "TM8K9LVBL25Y",
@@ -150,7 +150,7 @@
                     "button_text": "Jetzt abonnieren"
                 },
                 {
-                    "display_name": "Premium",
+                    "display_name": "Digital",
                     "apple_store_id": "at.profil.one.subscription.premium.1m",
                     "play_store_id": "at.profil.one.subscription.premium.1m",
                     "piano_term_id_apple": "TMMCUC5VLIKF",
@@ -187,7 +187,7 @@
             "title": "Jahresabo",
             "abo": [
                 {
-                    "display_name": "Basic",
+                    "display_name": "profil+",
                     "apple_store_id": "at.profil.one.subscription.basic.1y",
                     "play_store_id": "at.profil.one.subscription.basic.1y",
                     "piano_term_id_apple": "TMST743SG06Q",
@@ -209,7 +209,7 @@
                     "button_text": "Jetzt abonnieren"
                 },
                 {
-                    "display_name": "Premium",
+                    "display_name": "Digital",
                     "apple_store_id": "at.profil.one.subscription.premium.1y",
                     "play_store_id": "at.profil.one.subscription.premium.1y",
                     "piano_term_id_apple": "TM54I2Q3GLS2",
