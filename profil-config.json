@@ -106,9 +106,9 @@
         ]
     },
     "player": {
-        "start_playlist": "",
+        "start_playlist": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20Aufmacher",
         "playlists": [],
-        "video_tab": "https://pr517.profil.telekurier.at/?hermes=https://hermes.telekurier.at"
+        "video_tab": ""
     },
     "regions": [],
     "article_paywall": {
