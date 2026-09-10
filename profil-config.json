@@ -107,7 +107,33 @@
     },
     "player": {
         "start_playlist": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20Aufmacher",
-        "playlists": [],
+        "playlists": [
+            {
+                "title": "Meistgelesen",
+                "subtitle": "Die meistgelesenen Artikel der letzten 24 Stunden",
+                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil-channel-meistgelesen"
+            },
+            {
+                "title": "Nichts als Meinung",
+                "subtitle": "Meinungen und Kommentare aus der profil-Redaktion",
+                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil_Meinungen"
+            },
+            {
+                "title": "Neueste Artikel",
+                "subtitle": "Die neuesten Artikel aus der profil-Redaktion",
+                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20Home_neueste%20Artikel"
+            },
+            {
+                "title": "Ukraine-Konflikt",
+                "subtitle": "Die neuesten Nachrichten zum Ukraine-Konflikt",
+                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20Ukraine-Konflikt"
+            },
+            {
+                "title": "Literatur",
+                "subtitle": "Die neuesten Nachrichten zur Literatur",
+                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20literatur"
+            }
+        ],
         "video_tab": ""
     },
     "regions": [],
@@ -131,19 +157,11 @@
                             "included": true
                         },
                         {
-                            "benefit": "Tägliches ePaper mit allen Beilagen",
+                            "benefit": "Wöchentliches ePaper mit allen Beilagen",
                             "included": false
                         },
                         {
-                            "benefit": "Wöchentliches Freizeit-Magazin",
-                            "included": false
-                        },
-                        {
-                            "benefit": "Exklusiver Newsletter des Chefredakteurs",
-                            "included": true
-                        },
-                        {
-                            "benefit": "Attraktive Rabatte im KURIER club",
+                            "benefit": "Jederzeit kündbar",
                             "included": true
                         }
                     ],
@@ -161,19 +179,11 @@
                             "included": true
                         },
                         {
-                            "benefit": "Tägliches ePaper mit allen Beilagen",
+                            "benefit": "Wöchentliches ePaper mit allen Beilagen",
                             "included": true
                         },
                         {
-                            "benefit": "Wöchentliches Freizeit-Magazin",
-                            "included": true
-                        },
-                        {
-                            "benefit": "Exklusiver Newsletter des Chefredakteurs",
-                            "included": true
-                        },
-                        {
-                            "benefit": "Attraktive Rabatte im KURIER club",
+                            "benefit": "Jederzeit kündbar",
                             "included": true
                         }
                     ],
@@ -183,7 +193,7 @@
         },
         "yearly": {
             "badge": true,
-            "badge_label": "Reduziert",
+            "badge_label": "€",
             "title": "Jahresabo",
             "abo": [
                 {
@@ -243,8 +253,8 @@
     "epaper_paywall": {
         "piano_resource": "RSOZBCU",
         "product": {
-            "title": "KURIER Einzelausgabe",
-            "price": "3,49",
+            "title": "profil Einzelausgabe",
+            "price": "6,49",
             "apple_store_id": "at.kurier.one.einzelkauf",
             "play_store_id": "at.kurier.one.einzelkauf"
         }
