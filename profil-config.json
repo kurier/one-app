@@ -193,7 +193,7 @@
         },
         "yearly": {
             "badge": true,
-            "badge_label": "€",
+            "badge_label": "",
             "title": "Jahresabo",
             "abo": [
                 {
@@ -251,12 +251,12 @@
         }
     ],
     "epaper_paywall": {
-        "piano_resource": "RSOZBCU",
+        "piano_resource": "RMWZMAM",
         "product": {
             "title": "profil Einzelausgabe",
             "price": "6,49",
-            "apple_store_id": "at.kurier.one.einzelkauf",
-            "play_store_id": "at.kurier.one.einzelkauf"
+            "apple_store_id": "at.profil.one.einzelkauf",
+            "play_store_id": "at.profil.one.einzelkauf"
         }
     },
     "kurier-mode": true,
