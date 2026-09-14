@@ -175,7 +175,12 @@
         ]
     },
     "player": {
-        "start_playlist": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=10",
+        "start_playlist": 
+        {
+            "title": "Überblick",
+            "subtitle": "Das Wichtigste zur Stunde",
+            "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=10"
+        },
         "playlists": [
             {
                 "title": "Die Top 7",
