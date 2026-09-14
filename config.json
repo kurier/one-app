@@ -178,9 +178,9 @@
         "start_playlist": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=10",
         "playlists": [
             {
-                "title": "Nachrichtenbriefing",
-                "subtitle": "Die wichtigsten Nachrichten des Tages",
-                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=10"
+                "title": "Die Top 7",
+                "subtitle": "Das Wichtigste zur Stunde",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=7"
             },
             {
                 "title": "Morgenbriefing",
@@ -188,14 +188,24 @@
                 "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Fruehdienst%20Morgennewsletter?limit=5"
             },
             {
-                "title": "Innenpolitik",
-                "subtitle": "Die wichtigsten Nachrichten der Innenpolitik",
-                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Innenpolitik%20Topstories%20Channelebene"
+                "title": "Reportagen",
+                "subtitle": "Unsere Redakteure vor Ort",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Reportagen%20Start%20dyn?limit=10"
             },
             {
-                "title": "Wirtschaftsbriefing",
-                "subtitle": "Die wichtigsten Nachrichten der Wirtschaft",
-                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Wirtschaftsbriefing_Newsletter"
+                "title": "Analysen",
+                "subtitle": "Einordnungen zu Nachrichten und Weltgeschehen",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Analysen%20Start%20dyn?limit=7"
+            },
+            {
+                "title": "Leitartikel",
+                "subtitle": "Meinungen aus der KURIER-Redaktion zu aktuellen Themen",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Start%20Leitartikel%20chrono%20dyn?limit=7"
+            },
+            {
+                "title": "Service: Rechtsfragen",
+                "subtitle": "Fragen aus den Bereichen Wohn-, Arbeits-, Familienrecht und mehr",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Rechtsfragen%20Hub%20chrono%20dyn?limit=10"
             }
         ],
         "video_tab": "https://kurier.at/video"
