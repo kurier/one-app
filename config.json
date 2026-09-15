@@ -179,13 +179,13 @@
         {
             "title": "Überblick",
             "subtitle": "Das Wichtigste zur Stunde",
-            "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=10"
+            "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=6"
         },
         "playlists": [
             {
-                "title": "Die Top 7",
+                "title": "Überblick",
                 "subtitle": "Das Wichtigste zur Stunde",
-                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=7"
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Startseite?limit=6"
             },
             {
                 "title": "Morgenbriefing",
