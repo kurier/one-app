@@ -211,6 +211,21 @@
                 "title": "Service: Rechtsfragen",
                 "subtitle": "Fragen aus den Bereichen Wohn-, Arbeits-, Familienrecht und mehr",
                 "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Rechtsfragen%20Hub%20chrono%20dyn?limit=10"
+            },
+            {
+                "title": "Tribüne",
+                "subtitle": "Die Sportnews zum Wochenende",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Tribüne%20Newsletter"
+            },
+            {
+                "title": "Blaulicht",
+                "subtitle": "Aktuelle Vorfälle und Einsätze aus Wien",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/Blaulicht_Newsletter_dyn?limit=7"
+            },
+            {
+                "title": "Meistgelesen",
+                "subtitle": "Die aktuell am meisten gelesenen Nachrichten aus der Politik, der Wirtschaft, dem Weltgeschehen und mehr",
+                "collection": "https://efs-varnish.kurier.at/api/v1/cfs/collection/meistgelesen_front"
             }
         ],
         "video_tab": "https://kurier.at/video"
