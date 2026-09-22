@@ -157,11 +157,19 @@
                             "included": true
                         },
                         {
-                            "benefit": "Wöchentliches ePaper mit allen Beilagen",
+                            "benefit": "Die wöchentliche ePaper-Ausgabe",
                             "included": false
                         },
                         {
-                            "benefit": "Jederzeit kündbar",
+                            "benefit": "Vielfältige Newsletter-Auswahl",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Hintergründige Podcasts",
+                            "included": true
+                        },
+                        {
+                            "benefit": "20% auf exklusive profil-Events",
                             "included": true
                         }
                     ],
@@ -179,11 +187,19 @@
                             "included": true
                         },
                         {
-                            "benefit": "Wöchentliches ePaper mit allen Beilagen",
+                            "benefit": "Die wöchentliche ePaper-Ausgabe",
                             "included": true
                         },
                         {
-                            "benefit": "Jederzeit kündbar",
+                            "benefit": "Vielfältige Newsletter-Auswahl",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Hintergründige Podcasts",
+                            "included": true
+                        },
+                        {
+                            "benefit": "20% auf exklusive profil-Events",
                             "included": true
                         }
                     ],
@@ -208,11 +224,19 @@
                             "included": true
                         },
                         {
-                            "benefit": "Wöchentliches ePaper mit allen Beilagen",
+                            "benefit": "Die wöchentliche ePaper-Ausgabe",
                             "included": false
                         },
                         {
-                            "benefit": "Jederzeit kündbar",
+                            "benefit": "Vielfältige Newsletter-Auswahl",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Hintergründige Podcasts",
+                            "included": true
+                        },
+                        {
+                            "benefit": "20% auf exklusive profil-Events",
                             "included": true
                         }
                     ],
@@ -230,11 +254,19 @@
                             "included": true
                         },
                         {
-                            "benefit": "Wöchentliches ePaper mit allen Beilagen",
+                            "benefit": "Die wöchentliche ePaper-Ausgabe",
                             "included": true
                         },
                         {
-                            "benefit": "Jederzeit kündbar",
+                            "benefit": "Vielfältige Newsletter-Auswahl",
+                            "included": true
+                        },
+                        {
+                            "benefit": "Hintergründige Podcasts",
+                            "included": true
+                        },
+                        {
+                            "benefit": "20% auf exklusive profil-Events",
                             "included": true
                         }
                     ],
