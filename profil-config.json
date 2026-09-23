@@ -146,7 +146,7 @@
             "title": "Monatsabo",
             "abo": [
                 {
-                    "display_name": "profil+",
+                    "display_name": "Basic",
                     "apple_store_id": "at.profil.one.subscription.basic.1m",
                     "play_store_id": "at.profil.one.subscription.basic.1m",
                     "piano_term_id_apple": "TM8K9LVBL25Y",
@@ -213,7 +213,7 @@
             "title": "Jahresabo",
             "abo": [
                 {
-                    "display_name": "profil+",
+                    "display_name": "Basic",
                     "apple_store_id": "at.profil.one.subscription.basic.1y",
                     "play_store_id": "at.profil.one.subscription.basic.1y",
                     "piano_term_id_apple": "TMST743SG06Q",
