@@ -69,25 +69,19 @@
             },
             {
                 "title": "Signa",
-                "link": "/profilat/signa-benko",
+                "link": "/profilat/investigativ/signa-benko",
                 "icon": "",
                 "onboarding": false
             },
             {
                 "title": "Nahost-Konflikt",
-                "link": "/profilat/profil-nahost-konflikt",
+                "link": "/profilat/ausland/nahost-konflikt",
                 "icon": "",
                 "onboarding": false
             },
             {
                 "title": "Krieg in der Ukraine",
                 "link": "/profilat/ukraine-krieg",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "55 Jahre profil",
-                "link": "/profilat/55-jahre-profil",
                 "icon": "",
                 "onboarding": false
             },
