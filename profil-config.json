@@ -106,7 +106,12 @@
         ]
     },
     "player": {
-        "start_playlist": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20Aufmacher",
+        "start_playlist": 
+        {
+            "title": "Überblick",
+            "subtitle": "Aktuelle Geschichten",
+            "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20Aufmacher"
+        },
         "playlists": [
             {
                 "title": "Meistgelesen",
@@ -134,7 +139,11 @@
                 "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20literatur"
             }
         ],
-        "video_tab": ""
+        "video_tab": "",
+        "playlist_excluded_channels": [
+            "cm",
+            "extra"
+        ]
     },
     "regions": [],
     "article_paywall": {
