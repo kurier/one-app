@@ -356,7 +356,7 @@
         {
             "index": 5,
             "url": "/39025507/epaper.profil.at/ros/page01",
-            "active": false
+            "active": true
         },
         {
             "index": 10,
@@ -366,7 +366,7 @@
         {
             "index": 15,
             "url": "/39025507/epaper.profil.at/ros/page03",
-            "active": false
+            "active": true
         },
         {
             "index": 20,
@@ -376,7 +376,7 @@
         {
             "index": 25,
             "url": "/39025507/epaper.profil.at/ros/page05",
-            "active": false
+            "active": true
         }
     ],
     "epaper_magazines": []
