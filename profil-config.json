@@ -100,12 +100,6 @@
         ]
     },
     "player": {
-        "start_playlist": 
-        {
-            "title": "Überblick",
-            "subtitle": "Aktuelle Geschichten",
-            "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20Aufmacher"
-        },
         "playlists": [
             {
                 "title": "Meistgelesen",
