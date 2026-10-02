@@ -104,28 +104,23 @@
         "playlists": [
             {
                 "title": "Meistgelesen",
-                "subtitle": "Die meistgelesenen Artikel der letzten 24 Stunden",
+                "subtitle": "",
                 "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil-channel-meistgelesen"
             },
             {
-                "title": "Nichts als Meinung",
+                "title": "Meinung",
                 "subtitle": "Meinungen und Kommentare aus der profil-Redaktion",
                 "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil_Meinungen"
             },
             {
                 "title": "Neueste Artikel",
-                "subtitle": "Die neuesten Artikel aus der profil-Redaktion",
+                "subtitle": "",
                 "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20Home_neueste%20Artikel"
             },
             {
-                "title": "Ukraine-Konflikt",
-                "subtitle": "Die neuesten Nachrichten zum Ukraine-Konflikt",
-                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20Ukraine-Konflikt"
-            },
-            {
-                "title": "Literatur",
-                "subtitle": "Die neuesten Nachrichten zur Literatur",
-                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20literatur"
+                "title": "Ausgabe 26/39",
+                "subtitle": "",
+                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20ausgabe2639"
             }
         ],
         "video_tab": "",
