@@ -109,8 +109,8 @@
             },
             {
                 "title": "Meinung",
-                "subtitle": "Meinungen und Kommentare aus der profil-Redaktion",
-                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil_Meinungen"
+                "subtitle": "",
+                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil_Meinungen?limit=6"
             },
             {
                 "title": "Neueste Artikel",
