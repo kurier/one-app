@@ -105,7 +105,7 @@
             {
                 "title": "Meistgelesen",
                 "subtitle": "",
-                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil-channel-meistgelesen"
+                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil-channel-meistgelesen?limit=10"
             },
             {
                 "title": "Meinung",
@@ -115,7 +115,7 @@
             {
                 "title": "Neueste Artikel",
                 "subtitle": "",
-                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20Home_neueste%20Artikel"
+                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20Home_neueste%20Artikel?limit=10"
             },
             {
                 "title": "Ausgabe 26/39",
