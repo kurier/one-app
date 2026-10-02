@@ -201,7 +201,7 @@
             ]
         },
         "yearly": {
-            "badge": true,
+            "badge": false,
             "badge_label": "",
             "title": "Jahresabo",
             "abo": [
