@@ -35,7 +35,7 @@
                 "title": "Wirtschaft",
                 "link": "/profilat/wirtschaft",
                 "icon": "",
-                "onboarding": false
+                "onboarding": true
             },
             {
                 "title": "Ausland",
@@ -47,7 +47,7 @@
                 "title": "Gesellschaft",
                 "link": "/profilat/gesellschaft",
                 "icon": "",
-                "onboarding": false
+                "onboarding": true
             },
             {
                 "title": "Wissenschaft",
@@ -59,41 +59,11 @@
                 "title": "Kultur",
                 "link": "/profilat/kultur",
                 "icon": "",
-                "onboarding": true
+                "onboarding": false
             },
             {
                 "title": "faktiv",
                 "link": "/profilat/faktiv",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Signa",
-                "link": "/profilat/investigativ/signa-benko",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Nahost-Konflikt",
-                "link": "/profilat/ausland/nahost-konflikt",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Krieg in der Ukraine",
-                "link": "/profilat/ukraine-krieg",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Anna Thalhammer (Autorin)",
-                "link": "/profilat/author/anna.thalhammer",
-                "icon": "",
-                "onboarding": false
-            },
-            {
-                "title": "Gernot Bauer (Autor)",
-                "link": "/profilat/author/gernot.bauer",
                 "icon": "",
                 "onboarding": false
             }
