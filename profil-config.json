@@ -267,18 +267,18 @@
     "onboarding": {
         "feature_pages": [
             {
-                "title": "Willkommen in der neuen profil App",
-                "description": "Nachrichten im richtigen Format: Im News-Ticker, als Story, im ePaper oder zum Hören.",
+                "title": "Die neue profil App",
+                "description": "Aktuelle Artikel, ePaper, Podcasts – alles von profil, gebündelt in einer App.",
                 "image": ""
             },
             {
-                "title": "Artikel speichern & Themen personalisieren",
-                "description": "Nutzen Sie praktische Funktionen wie die Merkliste und Themenauswahl.",
+                "title": "Ich erzähle Ihnen alles",
+                "description": "Keine Zeit zum Lesen? Mit meiner automatisierten Stimme können Sie sich jeden Artikel anhören. Außerdem finden Sie im neuen Player alle Podcasts von profil.",
                 "image": ""
             },
             {
-                "title": "Das wöchentliche Magazin im neuen Kiosk",
-                "description": "Lesen Sie das profil und alle Beilagen ganz bequem auf Ihrem Smartphone oder Tablet.",
+                "title": "Merken, was wichtig ist",
+                "description": "Speichern Sie interessante Artikel für später und wählen Sie die Themen aus, die für Sie besonders wichtig sind.",
                 "image": ""
             }
         ],
@@ -295,8 +295,8 @@
             "skip_text": ""
         },
         "push_notifications": {
-            "title": "Dürfen wir Sie benachrichtigen?",
-            "description": "Wir informieren Sie über wichtige Updates und sobald eine neue ePaper-Ausgabe erscheint.",
+            "title": "Benachrichtungen aktivieren",
+            "description": "Wir informieren Sie über exklusive Storys und sobald eine neue ePaper-Ausgabe erscheint.",
             "button_text": "Ich möchte benachrichtigt werden",
             "skip_text": "Vielleicht später",
             "image": ""
