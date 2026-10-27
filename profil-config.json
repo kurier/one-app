@@ -88,9 +88,9 @@
                 "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20Home_neueste%20Artikel?limit=10"
             },
             {
-                "title": "Ausgabe 26/42",
+                "title": "Die neue Ausgabe",
                 "subtitle": "",
-                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20ausgabe2642"
+                "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil%20-%20ausgabe2643"
             }
         ],
         "video_tab": "",
