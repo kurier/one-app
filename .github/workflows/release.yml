@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - s3
+      - master
 
 concurrency:
   cancel-in-progress: true
