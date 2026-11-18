@@ -75,7 +75,7 @@
         "playlists": [
             {
                 "title": "Meistgelesen",
-                "subtitle": "",
+                "subtitle": "Die meistgelesenen Artikel der letzten 24 Stunden",
                 "collection": "https://efs-varnish.profil.at/api/v1/cfs/collection/profil-channel-meistgelesen?limit=10"
             },
             {
