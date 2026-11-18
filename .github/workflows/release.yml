@@ -19,6 +19,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: aws-actions/configure-aws-credentials@main
         with:
-          role-to-assume: arn:aws:iam::196791952225:role/GitHub-S3-kurier-static
+          role-to-assume: arn:aws:iam::196791952225:role/GitHub-S3-kurier-static-unprivileged
           aws-region: eu-central-1
       - run: aws s3 sync ./files s3://kurier-static/one-app --exclude .gitignore
