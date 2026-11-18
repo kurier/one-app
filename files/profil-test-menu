@@ -1,0 +1,52 @@
+[
+    {
+      "title": "Kultur",
+      "link": "https://kurier.at/kultur",
+      "entry": false
+    },
+    {
+      "title": "Video",
+      "link": "https://kurier.at/video",
+      "entry": false
+    },
+    {
+      "title": "Futurezone",
+      "link": "https://futurezone.at",
+      "entry": false
+    },
+    {
+      "title": "Freizeit",
+      "link": "https://kurier.at/freizeit",
+      "entry": false
+    },
+    {
+      "title": "Heute",
+      "link": "https://kurier.at",
+      "entry": true
+    },
+    {
+      "title": "Ticker",
+      "link": "https://kurier.at/neues",
+      "entry": false
+    },
+    {
+      "title": "Meine Region",
+      "link": "https://kurier.at/chronik/wien",
+      "entry": false
+    },
+    {
+      "title": "Meinung",
+      "link": "https://kurier.at/meinung",
+      "entry": false
+    },
+    {
+      "title": "Innenpolitik",
+      "link": "https://kurier.at/politik/inland",
+      "entry": false
+    },
+    {
+      "title": "Ressorts",
+      "link": "https://kurier.at/kurier-one-ressorts",
+      "entry": false
+    }
+  ]
